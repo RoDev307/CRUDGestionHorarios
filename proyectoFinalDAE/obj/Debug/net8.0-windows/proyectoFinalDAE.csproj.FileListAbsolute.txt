@@ -1,0 +1,55 @@
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.exe
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.deps.json
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.runtimeconfig.json
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.dll
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.pdb
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Form1.resources
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.csproj.GenerateResource.cache
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.AssemblyInfoInputs.cache
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.AssemblyInfo.cs
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.dll
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\refint\proyectoFinalDAE.dll
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.pdb
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.genruntimeconfig.cache
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\ref\proyectoFinalDAE.dll
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Properties.Resources.resources
+C:\Users\rodri\Documents\Itca\Ciclo2\Apps de Escritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Form2.resources
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.exe
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.deps.json
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.runtimeconfig.json
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.dll
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.pdb
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Form1.resources
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Form2.resources
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.csproj.GenerateResource.cache
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.AssemblyInfo.cs
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.dll
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\refint\proyectoFinalDAE.dll
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.pdb
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.genruntimeconfig.cache
+C:\Users\Rodrigo\Documents\Itca Ciclo 2\AppsDeEscritorio\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\ref\proyectoFinalDAE.dll
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.exe
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.deps.json
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.runtimeconfig.json
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.dll
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\bin\Debug\net8.0-windows\proyectoFinalDAE.pdb
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Form1.resources
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Form2.resources
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.Properties.Resources.resources
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.csproj.GenerateResource.cache
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.AssemblyInfoInputs.cache
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.AssemblyInfo.cs
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.csproj.CoreCompileInputs.cache
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.sourcelink.json
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.dll
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\refint\proyectoFinalDAE.dll
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.pdb
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.genruntimeconfig.cache
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\ref\proyectoFinalDAE.dll

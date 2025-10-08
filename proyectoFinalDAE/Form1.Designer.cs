@@ -1,0 +1,219 @@
+﻿namespace proyectoFinalDAE
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            panel1 = new Panel();
+            pictureBox1 = new PictureBox();
+            txtUsuario = new TextBox();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            txtContraseña = new TextBox();
+            label1 = new Label();
+            btnAcceder = new Button();
+            ptrClose = new PictureBox();
+            pcrMinimize = new PictureBox();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ptrClose).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pcrMinimize).BeginInit();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(153, 153, 153);
+            panel1.Controls.Add(pictureBox1);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(286, 440);
+            panel1.TabIndex = 0;
+            panel1.MouseDown += panel1_MouseDown;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(77, 131);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(100, 100);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // txtUsuario
+            // 
+            txtUsuario.BackColor = Color.FromArgb(51, 51, 51);
+            txtUsuario.BorderStyle = BorderStyle.None;
+            txtUsuario.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtUsuario.ForeColor = Color.White;
+            txtUsuario.Location = new Point(360, 119);
+            txtUsuario.Margin = new Padding(3, 4, 3, 4);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(469, 23);
+            txtUsuario.TabIndex = 1;
+            txtUsuario.Text = "USUARIO";
+            txtUsuario.Enter += txtUsuario_Enter;
+            txtUsuario.Leave += txtUsuario_Leave;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.Silver;
+            panel2.Enabled = false;
+            panel2.Location = new Point(361, 152);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(469, 3);
+            panel2.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Silver;
+            panel3.Enabled = false;
+            panel3.Location = new Point(362, 272);
+            panel3.Margin = new Padding(3, 4, 3, 4);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(469, 3);
+            panel3.TabIndex = 5;
+            // 
+            // txtContraseña
+            // 
+            txtContraseña.BackColor = Color.FromArgb(51, 51, 51);
+            txtContraseña.BorderStyle = BorderStyle.None;
+            txtContraseña.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtContraseña.ForeColor = Color.White;
+            txtContraseña.Location = new Point(361, 239);
+            txtContraseña.Margin = new Padding(3, 4, 3, 4);
+            txtContraseña.Name = "txtContraseña";
+            txtContraseña.Size = new Size(469, 23);
+            txtContraseña.TabIndex = 4;
+            txtContraseña.Text = "CONTRASEÑA";
+            txtContraseña.Enter += txtContraseña_Enter;
+            txtContraseña.Leave += txtContraseña_Leave;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(537, 12);
+            label1.Name = "label1";
+            label1.Size = new Size(95, 39);
+            label1.TabIndex = 6;
+            label1.Text = "login";
+            // 
+            // btnAcceder
+            // 
+            btnAcceder.FlatAppearance.BorderSize = 0;
+            btnAcceder.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            btnAcceder.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAcceder.FlatStyle = FlatStyle.Flat;
+            btnAcceder.Font = new Font("Liberation Mono", 12F);
+            btnAcceder.ForeColor = Color.White;
+            btnAcceder.Location = new Point(360, 317);
+            btnAcceder.Margin = new Padding(3, 4, 3, 4);
+            btnAcceder.Name = "btnAcceder";
+            btnAcceder.Size = new Size(471, 75);
+            btnAcceder.TabIndex = 7;
+            btnAcceder.Text = "ACCEDER";
+            btnAcceder.UseVisualStyleBackColor = true;
+            btnAcceder.Click += btnAcceder_Click;
+            // 
+            // ptrClose
+            // 
+            ptrClose.Image = (Image)resources.GetObject("ptrClose.Image");
+            ptrClose.Location = new Point(839, 0);
+            ptrClose.Margin = new Padding(3, 4, 3, 4);
+            ptrClose.Name = "ptrClose";
+            ptrClose.Size = new Size(50, 50);
+            ptrClose.TabIndex = 8;
+            ptrClose.TabStop = false;
+            ptrClose.Click += ptrClose_Click;
+            ptrClose.MouseEnter += ptrClose_MouseEnter;
+            ptrClose.MouseLeave += ptrClose_MouseLeave;
+            // 
+            // pcrMinimize
+            // 
+            pcrMinimize.Image = (Image)resources.GetObject("pcrMinimize.Image");
+            pcrMinimize.Location = new Point(783, 0);
+            pcrMinimize.Margin = new Padding(3, 4, 3, 4);
+            pcrMinimize.Name = "pcrMinimize";
+            pcrMinimize.Size = new Size(50, 50);
+            pcrMinimize.TabIndex = 9;
+            pcrMinimize.TabStop = false;
+            pcrMinimize.Click += pcrMinimize_Click;
+            pcrMinimize.MouseEnter += pcrMinimize_MouseEnter;
+            pcrMinimize.MouseLeave += pcrMinimize_MouseLeave;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(51, 51, 51);
+            ClientSize = new Size(891, 440);
+            Controls.Add(pcrMinimize);
+            Controls.Add(ptrClose);
+            Controls.Add(btnAcceder);
+            Controls.Add(label1);
+            Controls.Add(panel3);
+            Controls.Add(txtContraseña);
+            Controls.Add(panel2);
+            Controls.Add(txtUsuario);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "Form1";
+            Opacity = 0.9D;
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Login";
+            MouseDown += Form1_MouseDown;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ptrClose).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pcrMinimize).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Panel panel1;
+        private TextBox txtUsuario;
+        private Panel panel2;
+        private Panel panel3;
+        private TextBox txtContraseña;
+        private Label label1;
+        private Button btnAcceder;
+        private PictureBox ptrClose;
+        private PictureBox pcrMinimize;
+        private PictureBox pictureBox1;
+    }
+}
