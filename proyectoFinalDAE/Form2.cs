@@ -50,22 +50,48 @@ namespace proyectoFinalDAE
 
         private void pcrMinimize_MouseLeave(object sender, EventArgs e)
         {
-            pcrMinimize.BackColor = Color.FromArgb(51, 51, 51);
+            pcrMinimize.BackColor = Color.FromArgb(38, 39, 39);
         }
 
         private void ptrClose_MouseEnter(object sender, EventArgs e)
         {
-            ptrClose.BackColor = Color.FromArgb(153, 153, 153);
+            ptrClose.BackColor = Color.FromArgb(51, 51, 51);
         }
 
         private void ptrClose_MouseLeave(object sender, EventArgs e)
         {
-            ptrClose.BackColor = Color.FromArgb(51, 51, 51);
+            ptrClose.BackColor = Color.FromArgb(38, 39, 39);
         }
 
         private void pcrMinimize_MouseEnter(object sender, EventArgs e)
         {
-            pcrMinimize.BackColor = Color.FromArgb(153, 153, 153);
+            pcrMinimize.BackColor = Color.FromArgb(51, 51, 51);
+        }
+        public void loadForm(object Form)
+        {
+            if (this.mainPanel.Controls.Count > 0)
+                this.mainPanel.Controls.RemoveAt(0);
+            Form fh = Form as Form;
+            fh.TopLevel = false;
+            fh.Dock = DockStyle.Fill;
+            this.mainPanel.Controls.Add(fh);
+            this.mainPanel.Tag = fh;
+            fh.Show();
+        }
+
+        private void btnAñadir_Click(object sender, EventArgs e)
+        {
+            loadForm(new añadirForm());
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            loadForm(new formInicio());
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            loadForm(new formInicio());
         }
     }
 }

@@ -36,9 +36,9 @@
             btnReporte = new Button();
             btnEliminar = new Button();
             btnAñadir = new Button();
-            panel2 = new Panel();
             pictureBox1 = new PictureBox();
             label1 = new Label();
+            mainPanel = new Panel();
             btnModificar = new Button();
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ptrClose).BeginInit();
@@ -68,6 +68,7 @@
             pcrMinimize.Location = new Point(1324, 0);
             pcrMinimize.Name = "pcrMinimize";
             pcrMinimize.Size = new Size(50, 50);
+            pcrMinimize.SizeMode = PictureBoxSizeMode.AutoSize;
             pcrMinimize.TabIndex = 11;
             pcrMinimize.TabStop = false;
             pcrMinimize.Click += pcrMinimize_Click;
@@ -81,6 +82,7 @@
             ptrClose.Location = new Point(1378, 0);
             ptrClose.Name = "ptrClose";
             ptrClose.Size = new Size(50, 50);
+            ptrClose.SizeMode = PictureBoxSizeMode.AutoSize;
             ptrClose.TabIndex = 10;
             ptrClose.TabStop = false;
             ptrClose.Click += ptrClose_Click;
@@ -89,12 +91,11 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(153, 153, 153);
+            panel1.BackColor = Color.FromArgb(38, 39, 39);
             panel1.Controls.Add(btnReporte);
             panel1.Controls.Add(btnEliminar);
             panel1.Controls.Add(btnModificar);
             panel1.Controls.Add(btnAñadir);
-            panel1.Controls.Add(panel2);
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
@@ -150,25 +151,18 @@
             btnAñadir.TabIndex = 25;
             btnAñadir.Text = "Añadir";
             btnAñadir.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            panel2.BackColor = Color.Silver;
-            panel2.Enabled = false;
-            panel2.Location = new Point(247, 110);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(922, 2);
-            panel2.TabIndex = 15;
+            btnAñadir.Click += btnAñadir_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(72, 22);
+            pictureBox1.Location = new Point(70, 20);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(100, 100);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // label1
             // 
@@ -177,16 +171,25 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(686, 9);
             label1.Name = "label1";
-            label1.Size = new Size(332, 39);
+            label1.Size = new Size(269, 31);
             label1.TabIndex = 7;
             label1.Text = "Gestión de horarios";
             // 
+            // mainPanel
+            // 
+            mainPanel.BackColor = Color.FromArgb(51, 51, 51);
+            mainPanel.Location = new Point(250, 56);
+            mainPanel.Name = "mainPanel";
+            mainPanel.Size = new Size(1178, 737);
+            mainPanel.TabIndex = 13;
+            // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(12F, 23F);
+            AutoScaleDimensions = new SizeF(10F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(51, 51, 51);
+            BackColor = Color.FromArgb(38, 39, 39);
             ClientSize = new Size(1431, 793);
+            Controls.Add(mainPanel);
             Controls.Add(label1);
             Controls.Add(panel1);
             Controls.Add(pcrMinimize);
@@ -197,6 +200,7 @@
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
+            Load += Form2_Load;
             MouseDown += Form2_MouseDown;
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).EndInit();
             ((System.ComponentModel.ISupportInitialize)ptrClose).EndInit();
@@ -214,9 +218,9 @@
         private Panel panel1;
         private Label label1;
         private PictureBox pictureBox1;
-        private Panel panel2;
         private Button btnReporte;
         private Button btnEliminar;
         private Button btnAñadir;
+        private Panel mainPanel;
     }
 }

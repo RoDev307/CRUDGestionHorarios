@@ -88,22 +88,22 @@ namespace proyectoFinalDAE
 
         private void pcrMinimize_MouseEnter(object sender, EventArgs e)
         {
-            pcrMinimize.BackColor = Color.FromArgb(153, 153, 153);
+            pcrMinimize.BackColor = Color.FromArgb(51, 51, 51);
         }
 
         private void pcrMinimize_MouseLeave(object sender, EventArgs e)
         {
-            pcrMinimize.BackColor = Color.FromArgb(51, 51, 51);
+            pcrMinimize.BackColor = Color.FromArgb(38, 39, 39);
         }
 
         private void ptrClose_MouseEnter(object sender, EventArgs e)
         {
-            ptrClose.BackColor = Color.FromArgb(153, 153, 153);
+            ptrClose.BackColor = Color.FromArgb(51, 51, 51);
         }
 
         private void ptrClose_MouseLeave(object sender, EventArgs e)
         {
-            ptrClose.BackColor = Color.FromArgb(51, 51, 51);
+            ptrClose.BackColor = Color.FromArgb(38, 39, 39);
         }
     }
 }
