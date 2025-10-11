@@ -74,3 +74,5 @@ C:\Users\rodri\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-
 C:\Users\rodri\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\ref\proyectoFinalDAE.dll
 C:\Users\rodri\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.añadirForm.resources
 C:\Users\rodri\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.formInicio.resources
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.añadirForm.resources
+C:\Users\Rodrigo\Documents\GitHub\ProyectoFinal\proyectoFinalDAE\obj\Debug\net8.0-windows\proyectoFinalDAE.formInicio.resources

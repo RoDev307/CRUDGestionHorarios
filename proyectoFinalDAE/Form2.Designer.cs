@@ -156,7 +156,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(70, 20);
+            pictureBox1.Location = new Point(73, 42);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(100, 100);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -171,7 +171,7 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(686, 9);
             label1.Name = "label1";
-            label1.Size = new Size(269, 31);
+            label1.Size = new Size(332, 39);
             label1.TabIndex = 7;
             label1.Text = "Gestión de horarios";
             // 
@@ -185,7 +185,7 @@
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(10F, 18F);
+            AutoScaleDimensions = new SizeF(12F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(38, 39, 39);
             ClientSize = new Size(1431, 793);
