@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             btnAñadirMateria = new Button();
-            panel2 = new Panel();
-            txtDocente = new TextBox();
             cmbMateria = new ComboBox();
             cmbCarrera = new ComboBox();
             cmbAula = new ComboBox();
@@ -48,6 +46,10 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
+            label1 = new Label();
+            txtDocente = new ComboBox();
+            button2 = new Button();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -60,7 +62,7 @@
             btnAñadirMateria.FlatStyle = FlatStyle.Flat;
             btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
             btnAñadirMateria.ForeColor = Color.White;
-            btnAñadirMateria.Location = new Point(821, 185);
+            btnAñadirMateria.Location = new Point(809, 96);
             btnAñadirMateria.Margin = new Padding(3, 4, 3, 4);
             btnAñadirMateria.Name = "btnAñadirMateria";
             btnAñadirMateria.Size = new Size(333, 75);
@@ -68,29 +70,6 @@
             btnAñadirMateria.Text = "Añadir";
             btnAñadirMateria.UseVisualStyleBackColor = true;
             btnAñadirMateria.Click += btnAñadirMateria_Click;
-            // 
-            // panel2
-            // 
-            panel2.Anchor = AnchorStyles.None;
-            panel2.BackColor = Color.Silver;
-            panel2.Enabled = false;
-            panel2.Location = new Point(27, 258);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(321, 2);
-            panel2.TabIndex = 28;
-            // 
-            // txtDocente
-            // 
-            txtDocente.Anchor = AnchorStyles.None;
-            txtDocente.BackColor = Color.FromArgb(51, 51, 51);
-            txtDocente.BorderStyle = BorderStyle.None;
-            txtDocente.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtDocente.ForeColor = Color.White;
-            txtDocente.Location = new Point(26, 233);
-            txtDocente.Name = "txtDocente";
-            txtDocente.Size = new Size(321, 19);
-            txtDocente.TabIndex = 27;
-            txtDocente.Text = "Docente";
             // 
             // cmbMateria
             // 
@@ -139,12 +118,12 @@
             // 
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(25, 293);
+            dataGridView1.Location = new Point(25, 344);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(1129, 423);
+            dataGridView1.Size = new Size(1129, 372);
             dataGridView1.TabIndex = 32;
             // 
             // cmbTipo
@@ -224,7 +203,7 @@
             cmbDia.ForeColor = Color.White;
             cmbDia.FormattingEnabled = true;
             cmbDia.Items.AddRange(new object[] { "LUN", "MAR", "MIE", "JUE", "VIE", "SAB", "DOM" });
-            cmbDia.Location = new Point(821, 59);
+            cmbDia.Location = new Point(26, 287);
             cmbDia.Name = "cmbDia";
             cmbDia.Size = new Size(321, 26);
             cmbDia.TabIndex = 39;
@@ -283,11 +262,69 @@
             // 
             label9.AutoSize = true;
             label9.ForeColor = Color.White;
-            label9.Location = new Point(821, 38);
+            label9.Location = new Point(26, 266);
             label9.Name = "label9";
             label9.Size = new Size(38, 18);
             label9.TabIndex = 45;
             label9.Text = "Dia";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(26, 212);
+            label1.Name = "label1";
+            label1.Size = new Size(78, 18);
+            label1.TabIndex = 47;
+            label1.Text = "Docente";
+            // 
+            // txtDocente
+            // 
+            txtDocente.Anchor = AnchorStyles.None;
+            txtDocente.BackColor = Color.FromArgb(51, 51, 51);
+            txtDocente.DropDownStyle = ComboBoxStyle.DropDownList;
+            txtDocente.FlatStyle = FlatStyle.Flat;
+            txtDocente.ForeColor = Color.White;
+            txtDocente.FormattingEnabled = true;
+            txtDocente.Items.AddRange(new object[] { "NA", "AULA C101", "AULA C102", "AULA C103", "COMPUTO F101", "COMPUTO F102", "COMPUTO F103" });
+            txtDocente.Location = new Point(26, 233);
+            txtDocente.Name = "txtDocente";
+            txtDocente.Size = new Size(321, 26);
+            txtDocente.TabIndex = 46;
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.None;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button2.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Liberation Mono", 12F);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(809, 262);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(333, 75);
+            button2.TabIndex = 62;
+            button2.Text = "Eliminar";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.None;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button1.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Liberation Mono", 12F);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(809, 179);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(333, 75);
+            button1.TabIndex = 61;
+            button1.Text = "Modificar";
+            button1.UseVisualStyleBackColor = true;
             // 
             // añadirForm
             // 
@@ -295,6 +332,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(1178, 737);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(label1);
+            Controls.Add(txtDocente);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -312,8 +353,6 @@
             Controls.Add(cmbAula);
             Controls.Add(cmbCarrera);
             Controls.Add(cmbMateria);
-            Controls.Add(panel2);
-            Controls.Add(txtDocente);
             Controls.Add(btnAñadirMateria);
             Font = new Font("Liberation Mono", 12F);
             FormBorderStyle = FormBorderStyle.None;
@@ -327,8 +366,6 @@
 
         #endregion
         private Button btnAñadirMateria;
-        private Panel panel2;
-        private TextBox txtDocente;
         private ComboBox cmbMateria;
         private ComboBox cmbCarrera;
         private ComboBox cmbAula;
@@ -346,5 +383,9 @@
         private Label label7;
         private Label label8;
         private Label label9;
+        private Label label1;
+        private ComboBox txtDocente;
+        private Button button2;
+        private Button button1;
     }
 }

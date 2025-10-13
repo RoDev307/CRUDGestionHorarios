@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Button btnModificar;
+            Button btnInicio;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             pcrMinimize = new PictureBox();
             ptrClose = new PictureBox();
@@ -39,28 +39,34 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             mainPanel = new Panel();
-            btnModificar = new Button();
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            label2 = new Label();
+            btnInicio = new Button();
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ptrClose).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            mainPanel.SuspendLayout();
             SuspendLayout();
             // 
-            // btnModificar
+            // btnInicio
             // 
-            btnModificar.FlatAppearance.BorderSize = 0;
-            btnModificar.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnModificar.FlatAppearance.MouseOverBackColor = Color.Silver;
-            btnModificar.FlatStyle = FlatStyle.Flat;
-            btnModificar.Font = new Font("Liberation Mono", 12F);
-            btnModificar.ForeColor = Color.White;
-            btnModificar.Location = new Point(3, 232);
-            btnModificar.Margin = new Padding(3, 4, 3, 4);
-            btnModificar.Name = "btnModificar";
-            btnModificar.Size = new Size(244, 75);
-            btnModificar.TabIndex = 26;
-            btnModificar.Text = "Modificar";
-            btnModificar.UseVisualStyleBackColor = true;
+            btnInicio.FlatAppearance.BorderSize = 0;
+            btnInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            btnInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnInicio.FlatStyle = FlatStyle.Flat;
+            btnInicio.Font = new Font("Liberation Mono", 12F);
+            btnInicio.ForeColor = Color.White;
+            btnInicio.Location = new Point(3, 149);
+            btnInicio.Margin = new Padding(3, 4, 3, 4);
+            btnInicio.Name = "btnInicio";
+            btnInicio.Size = new Size(244, 75);
+            btnInicio.TabIndex = 26;
+            btnInicio.Text = "Inicio";
+            btnInicio.UseVisualStyleBackColor = true;
             // 
             // pcrMinimize
             // 
@@ -92,9 +98,13 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(38, 39, 39);
+            panel1.Controls.Add(button2);
+            panel1.Controls.Add(button1);
+            panel1.Controls.Add(button4);
             panel1.Controls.Add(btnReporte);
             panel1.Controls.Add(btnEliminar);
-            panel1.Controls.Add(btnModificar);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(btnInicio);
             panel1.Controls.Add(btnAñadir);
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
@@ -112,12 +122,12 @@
             btnReporte.FlatStyle = FlatStyle.Flat;
             btnReporte.Font = new Font("Liberation Mono", 12F);
             btnReporte.ForeColor = Color.White;
-            btnReporte.Location = new Point(3, 398);
+            btnReporte.Location = new Point(3, 564);
             btnReporte.Margin = new Padding(3, 4, 3, 4);
             btnReporte.Name = "btnReporte";
             btnReporte.Size = new Size(244, 75);
             btnReporte.TabIndex = 28;
-            btnReporte.Text = "Reporte";
+            btnReporte.Text = "Aula";
             btnReporte.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
@@ -128,12 +138,12 @@
             btnEliminar.FlatStyle = FlatStyle.Flat;
             btnEliminar.Font = new Font("Liberation Mono", 12F);
             btnEliminar.ForeColor = Color.White;
-            btnEliminar.Location = new Point(3, 315);
+            btnEliminar.Location = new Point(3, 232);
             btnEliminar.Margin = new Padding(3, 4, 3, 4);
             btnEliminar.Name = "btnEliminar";
             btnEliminar.Size = new Size(244, 75);
             btnEliminar.TabIndex = 27;
-            btnEliminar.Text = "Eliminar";
+            btnEliminar.Text = "Docentes";
             btnEliminar.UseVisualStyleBackColor = true;
             // 
             // btnAñadir
@@ -144,12 +154,12 @@
             btnAñadir.FlatStyle = FlatStyle.Flat;
             btnAñadir.Font = new Font("Liberation Mono", 12F);
             btnAñadir.ForeColor = Color.White;
-            btnAñadir.Location = new Point(3, 149);
+            btnAñadir.Location = new Point(3, 481);
             btnAñadir.Margin = new Padding(3, 4, 3, 4);
             btnAñadir.Name = "btnAñadir";
             btnAñadir.Size = new Size(244, 75);
             btnAñadir.TabIndex = 25;
-            btnAñadir.Text = "Añadir";
+            btnAñadir.Text = "Horario";
             btnAñadir.UseVisualStyleBackColor = true;
             btnAñadir.Click += btnAñadir_Click;
             // 
@@ -171,21 +181,100 @@
             label1.ForeColor = Color.White;
             label1.Location = new Point(686, 9);
             label1.Name = "label1";
-            label1.Size = new Size(332, 39);
+            label1.Size = new Size(269, 31);
             label1.TabIndex = 7;
             label1.Text = "Gestión de horarios";
             // 
             // mainPanel
             // 
             mainPanel.BackColor = Color.FromArgb(51, 51, 51);
+            mainPanel.Controls.Add(label2);
             mainPanel.Location = new Point(250, 56);
             mainPanel.Name = "mainPanel";
             mainPanel.Size = new Size(1178, 737);
             mainPanel.TabIndex = 13;
             // 
+            // button1
+            // 
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button1.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Liberation Mono", 12F);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(3, 315);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Size = new Size(244, 75);
+            button1.TabIndex = 29;
+            button1.Text = "Materias";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button2.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Liberation Mono", 12F);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(3, 398);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(244, 75);
+            button2.TabIndex = 30;
+            button2.Text = "Carreras";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button3.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Liberation Mono", 12F);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(3, 562);
+            button3.Margin = new Padding(3, 4, 3, 4);
+            button3.Name = "button3";
+            button3.Size = new Size(244, 75);
+            button3.TabIndex = 25;
+            button3.Text = "Horario";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += btnAñadir_Click;
+            // 
+            // button4
+            // 
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button4.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Liberation Mono", 12F);
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(3, 645);
+            button4.Margin = new Padding(3, 4, 3, 4);
+            button4.Name = "button4";
+            button4.Size = new Size(244, 75);
+            button4.TabIndex = 28;
+            button4.Text = "Reporte";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.Anchor = AnchorStyles.None;
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(324, 93);
+            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(449, 31);
+            label2.TabIndex = 31;
+            label2.Text = "Aca se mostraran todos las forms";
+            // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(12F, 23F);
+            AutoScaleDimensions = new SizeF(10F, 18F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(38, 39, 39);
             ClientSize = new Size(1431, 793);
@@ -207,6 +296,8 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            mainPanel.ResumeLayout(false);
+            mainPanel.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -222,5 +313,10 @@
         private Button btnEliminar;
         private Button btnAñadir;
         private Panel mainPanel;
+        private Button button2;
+        private Button button1;
+        private Button button4;
+        private Button button3;
+        private Label label2;
     }
 }

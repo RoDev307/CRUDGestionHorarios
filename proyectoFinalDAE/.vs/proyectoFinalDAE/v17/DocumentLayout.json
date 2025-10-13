@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\a\u00F1adirreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:a\u00F1adirreporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\a\u00F1adirform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:a\u00F1adirform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\clases\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:clases\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\a\u00F1adirform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:a\u00F1adirform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\a\u00F1adirdocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:a\u00F1adirdocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\a\u00F1adircarrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:a\u00F1adircarrera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\a\u00F1adirmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:a\u00F1adirmateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\a\u00F1adiraula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:a\u00F1adiraula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\clases\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:clases\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:forminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -33,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|c:\\users\\rodrigo\\documents\\github\\proyectofinal\\proyectofinaldae\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C728A54-FD3D-4B3C-B6BD-83EB9A0BFD4F}|proyectoFinalDAE.csproj|solutionrelative:form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +70,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "a\u00F1adirReporte.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirReporte.cs",
+              "RelativeDocumentMoniker": "a\u00F1adirReporte.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirReporte.cs [Dise\u00F1o]",
+              "RelativeToolTip": "a\u00F1adirReporte.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T03:58:55.337Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "a\u00F1adirCarrera.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirCarrera.cs",
+              "RelativeDocumentMoniker": "a\u00F1adirCarrera.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirCarrera.cs [Dise\u00F1o]",
+              "RelativeToolTip": "a\u00F1adirCarrera.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T03:32:17.163Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "a\u00F1adirAula.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirAula.cs",
+              "RelativeDocumentMoniker": "a\u00F1adirAula.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirAula.cs [Dise\u00F1o]",
+              "RelativeToolTip": "a\u00F1adirAula.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T03:31:52.071Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "a\u00F1adirMateria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirMateria.cs",
+              "RelativeDocumentMoniker": "a\u00F1adirMateria.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirMateria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "a\u00F1adirMateria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T03:31:36.507Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "a\u00F1adirDocente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirDocente.cs",
+              "RelativeDocumentMoniker": "a\u00F1adirDocente.cs",
+              "ToolTip": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirDocente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "a\u00F1adirDocente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T03:30:34.171Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "a\u00F1adirForm.cs",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirForm.cs",
               "RelativeDocumentMoniker": "a\u00F1adirForm.cs",
@@ -63,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Materia.cs",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Clases\\Materia.cs",
               "RelativeDocumentMoniker": "Clases\\Materia.cs",
@@ -71,11 +151,12 @@
               "RelativeToolTip": "Clases\\Materia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T07:11:14.483Z"
+              "WhenOpened": "2025-10-09T07:11:14.483Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "a\u00F1adirForm.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\a\u00F1adirForm.cs",
               "RelativeDocumentMoniker": "a\u00F1adirForm.cs",
@@ -87,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "formInicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\formInicio.cs",
               "RelativeDocumentMoniker": "formInicio.cs",
@@ -99,20 +180,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
               "ToolTip": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form2.cs",
               "RelativeToolTip": "Form2.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAIAzwEkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAEwEkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-07T05:12:56.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form2.cs",
               "RelativeDocumentMoniker": "Form2.cs",
@@ -124,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -137,14 +218,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\rodri\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\rodri\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Rodrigo\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T02:15:07.476Z"
+              "WhenOpened": "2025-10-07T02:15:07.476Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
