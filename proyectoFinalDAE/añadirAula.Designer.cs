@@ -254,8 +254,7 @@
             // 
             // añadirAula
             // 
-            AutoScaleDimensions = new SizeF(10F, 18F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(1178, 737);
             Controls.Add(panel3);
@@ -276,7 +275,9 @@
             Controls.Add(btnAñadirMateria);
             Font = new Font("Liberation Mono", 12F);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
+            MaximumSize = new Size(1178, 737);
+            MinimumSize = new Size(1178, 737);
             Name = "añadirAula";
             Text = "añadirAula";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

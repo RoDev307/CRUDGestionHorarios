@@ -33,16 +33,18 @@
             pcrMinimize = new PictureBox();
             ptrClose = new PictureBox();
             panel1 = new Panel();
-            btnReporte = new Button();
-            btnEliminar = new Button();
+            label4 = new Label();
+            label3 = new Label();
+            lblAdmin = new Label();
+            btnCarrerasInicio = new Button();
+            btnMateriaInicio = new Button();
+            btnReporteInicio = new Button();
+            btnAulaInicio = new Button();
+            btnDocentes = new Button();
             btnAñadir = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
             mainPanel = new Panel();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
             label2 = new Label();
             btnInicio = new Button();
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).BeginInit();
@@ -54,24 +56,28 @@
             // 
             // btnInicio
             // 
+            btnInicio.Anchor = AnchorStyles.None;
+            btnInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnInicio.BackgroundImageLayout = ImageLayout.Zoom;
             btnInicio.FlatAppearance.BorderSize = 0;
             btnInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
             btnInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnInicio.FlatStyle = FlatStyle.Flat;
             btnInicio.Font = new Font("Liberation Mono", 12F);
             btnInicio.ForeColor = Color.White;
-            btnInicio.Location = new Point(3, 149);
+            btnInicio.Location = new Point(3, 107);
             btnInicio.Margin = new Padding(3, 4, 3, 4);
             btnInicio.Name = "btnInicio";
             btnInicio.Size = new Size(244, 75);
             btnInicio.TabIndex = 26;
             btnInicio.Text = "Inicio";
-            btnInicio.UseVisualStyleBackColor = true;
+            btnInicio.UseVisualStyleBackColor = false;
+            btnInicio.Click += btnInicio_Click;
             // 
             // pcrMinimize
             // 
-            pcrMinimize.Image = (Image)resources.GetObject("pcrMinimize.Image");
-            pcrMinimize.Location = new Point(1324, 0);
+            pcrMinimize.Image = Properties.Resources.icons8_minimize_window_50;
+            pcrMinimize.Location = new Point(1330, 0);
             pcrMinimize.Name = "pcrMinimize";
             pcrMinimize.Size = new Size(50, 50);
             pcrMinimize.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -84,7 +90,7 @@
             // 
             // ptrClose
             // 
-            ptrClose.Image = (Image)resources.GetObject("ptrClose.Image");
+            ptrClose.Image = Properties.Resources.icons8_close_window_50;
             ptrClose.Location = new Point(1378, 0);
             ptrClose.Name = "ptrClose";
             ptrClose.Size = new Size(50, 50);
@@ -98,12 +104,14 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(38, 39, 39);
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(button4);
-            panel1.Controls.Add(btnReporte);
-            panel1.Controls.Add(btnEliminar);
-            panel1.Controls.Add(button3);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(lblAdmin);
+            panel1.Controls.Add(btnCarrerasInicio);
+            panel1.Controls.Add(btnMateriaInicio);
+            panel1.Controls.Add(btnReporteInicio);
+            panel1.Controls.Add(btnAulaInicio);
+            panel1.Controls.Add(btnDocentes);
             panel1.Controls.Add(btnInicio);
             panel1.Controls.Add(btnAñadir);
             panel1.Controls.Add(pictureBox1);
@@ -114,62 +122,151 @@
             panel1.TabIndex = 12;
             panel1.MouseDown += panel1_MouseDown;
             // 
-            // btnReporte
+            // label4
             // 
-            btnReporte.FlatAppearance.BorderSize = 0;
-            btnReporte.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnReporte.FlatAppearance.MouseOverBackColor = Color.Silver;
-            btnReporte.FlatStyle = FlatStyle.Flat;
-            btnReporte.Font = new Font("Liberation Mono", 12F);
-            btnReporte.ForeColor = Color.White;
-            btnReporte.Location = new Point(3, 564);
-            btnReporte.Margin = new Padding(3, 4, 3, 4);
-            btnReporte.Name = "btnReporte";
-            btnReporte.Size = new Size(244, 75);
-            btnReporte.TabIndex = 28;
-            btnReporte.Text = "Aula";
-            btnReporte.UseVisualStyleBackColor = true;
+            label4.AutoSize = true;
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(106, 46);
+            label4.Name = "label4";
+            label4.Size = new Size(48, 18);
+            label4.TabIndex = 33;
+            label4.Text = "Hora";
             // 
-            // btnEliminar
+            // label3
             // 
-            btnEliminar.FlatAppearance.BorderSize = 0;
-            btnEliminar.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnEliminar.FlatAppearance.MouseOverBackColor = Color.Silver;
-            btnEliminar.FlatStyle = FlatStyle.Flat;
-            btnEliminar.Font = new Font("Liberation Mono", 12F);
-            btnEliminar.ForeColor = Color.White;
-            btnEliminar.Location = new Point(3, 232);
-            btnEliminar.Margin = new Padding(3, 4, 3, 4);
-            btnEliminar.Name = "btnEliminar";
-            btnEliminar.Size = new Size(244, 75);
-            btnEliminar.TabIndex = 27;
-            btnEliminar.Text = "Docentes";
-            btnEliminar.UseVisualStyleBackColor = true;
+            label3.AutoSize = true;
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(106, 82);
+            label3.Name = "label3";
+            label3.Size = new Size(38, 18);
+            label3.TabIndex = 32;
+            label3.Text = "Día";
+            // 
+            // lblAdmin
+            // 
+            lblAdmin.AutoSize = true;
+            lblAdmin.ForeColor = Color.White;
+            lblAdmin.Location = new Point(106, 9);
+            lblAdmin.Name = "lblAdmin";
+            lblAdmin.Size = new Size(138, 18);
+            lblAdmin.TabIndex = 31;
+            lblAdmin.Text = "Administrador";
+            // 
+            // btnCarrerasInicio
+            // 
+            btnCarrerasInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnCarrerasInicio.FlatAppearance.BorderSize = 0;
+            btnCarrerasInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            btnCarrerasInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnCarrerasInicio.FlatStyle = FlatStyle.Flat;
+            btnCarrerasInicio.Font = new Font("Liberation Mono", 12F);
+            btnCarrerasInicio.ForeColor = Color.White;
+            btnCarrerasInicio.Location = new Point(3, 356);
+            btnCarrerasInicio.Margin = new Padding(3, 4, 3, 4);
+            btnCarrerasInicio.Name = "btnCarrerasInicio";
+            btnCarrerasInicio.Size = new Size(244, 75);
+            btnCarrerasInicio.TabIndex = 30;
+            btnCarrerasInicio.Text = "Carreras";
+            btnCarrerasInicio.UseVisualStyleBackColor = false;
+            btnCarrerasInicio.Click += btnCarrerasInicio_Click;
+            // 
+            // btnMateriaInicio
+            // 
+            btnMateriaInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnMateriaInicio.FlatAppearance.BorderSize = 0;
+            btnMateriaInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            btnMateriaInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnMateriaInicio.FlatStyle = FlatStyle.Flat;
+            btnMateriaInicio.Font = new Font("Liberation Mono", 12F);
+            btnMateriaInicio.ForeColor = Color.White;
+            btnMateriaInicio.Location = new Point(3, 273);
+            btnMateriaInicio.Margin = new Padding(3, 4, 3, 4);
+            btnMateriaInicio.Name = "btnMateriaInicio";
+            btnMateriaInicio.Size = new Size(244, 75);
+            btnMateriaInicio.TabIndex = 29;
+            btnMateriaInicio.Text = "Materias";
+            btnMateriaInicio.UseVisualStyleBackColor = false;
+            btnMateriaInicio.Click += btnMateriaInicio_Click;
+            // 
+            // btnReporteInicio
+            // 
+            btnReporteInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnReporteInicio.FlatAppearance.BorderSize = 0;
+            btnReporteInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            btnReporteInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnReporteInicio.FlatStyle = FlatStyle.Flat;
+            btnReporteInicio.Font = new Font("Liberation Mono", 12F);
+            btnReporteInicio.ForeColor = Color.White;
+            btnReporteInicio.Location = new Point(3, 603);
+            btnReporteInicio.Margin = new Padding(3, 4, 3, 4);
+            btnReporteInicio.Name = "btnReporteInicio";
+            btnReporteInicio.Size = new Size(244, 75);
+            btnReporteInicio.TabIndex = 28;
+            btnReporteInicio.Text = "Reporte";
+            btnReporteInicio.UseVisualStyleBackColor = false;
+            btnReporteInicio.Click += btnReporteInicio_Click;
+            // 
+            // btnAulaInicio
+            // 
+            btnAulaInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnAulaInicio.FlatAppearance.BorderSize = 0;
+            btnAulaInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            btnAulaInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAulaInicio.FlatStyle = FlatStyle.Flat;
+            btnAulaInicio.Font = new Font("Liberation Mono", 12F);
+            btnAulaInicio.ForeColor = Color.White;
+            btnAulaInicio.Location = new Point(3, 520);
+            btnAulaInicio.Margin = new Padding(3, 4, 3, 4);
+            btnAulaInicio.Name = "btnAulaInicio";
+            btnAulaInicio.Size = new Size(244, 75);
+            btnAulaInicio.TabIndex = 28;
+            btnAulaInicio.Text = "Aula";
+            btnAulaInicio.UseVisualStyleBackColor = false;
+            btnAulaInicio.Click += btnAulaInicio_Click;
+            // 
+            // btnDocentes
+            // 
+            btnDocentes.BackColor = Color.FromArgb(42, 42, 42);
+            btnDocentes.FlatAppearance.BorderSize = 0;
+            btnDocentes.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            btnDocentes.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnDocentes.FlatStyle = FlatStyle.Flat;
+            btnDocentes.Font = new Font("Liberation Mono", 12F);
+            btnDocentes.ForeColor = Color.White;
+            btnDocentes.Location = new Point(3, 190);
+            btnDocentes.Margin = new Padding(3, 4, 3, 4);
+            btnDocentes.Name = "btnDocentes";
+            btnDocentes.Size = new Size(244, 75);
+            btnDocentes.TabIndex = 27;
+            btnDocentes.Text = "Docentes";
+            btnDocentes.UseVisualStyleBackColor = false;
+            btnDocentes.Click += btnEliminar_Click;
             // 
             // btnAñadir
             // 
+            btnAñadir.BackColor = Color.FromArgb(42, 42, 42);
             btnAñadir.FlatAppearance.BorderSize = 0;
             btnAñadir.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
             btnAñadir.FlatAppearance.MouseOverBackColor = Color.Silver;
             btnAñadir.FlatStyle = FlatStyle.Flat;
             btnAñadir.Font = new Font("Liberation Mono", 12F);
             btnAñadir.ForeColor = Color.White;
-            btnAñadir.Location = new Point(3, 481);
+            btnAñadir.Location = new Point(3, 439);
             btnAñadir.Margin = new Padding(3, 4, 3, 4);
             btnAñadir.Name = "btnAñadir";
             btnAñadir.Size = new Size(244, 75);
             btnAñadir.TabIndex = 25;
             btnAñadir.Text = "Horario";
-            btnAñadir.UseVisualStyleBackColor = true;
+            btnAñadir.UseVisualStyleBackColor = false;
             btnAñadir.Click += btnAñadir_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(73, 42);
+            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(100, 100);
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -190,74 +287,11 @@
             mainPanel.BackColor = Color.FromArgb(51, 51, 51);
             mainPanel.Controls.Add(label2);
             mainPanel.Location = new Point(250, 56);
+            mainPanel.MaximumSize = new Size(1178, 737);
+            mainPanel.MinimumSize = new Size(1178, 737);
             mainPanel.Name = "mainPanel";
             mainPanel.Size = new Size(1178, 737);
             mainPanel.TabIndex = 13;
-            // 
-            // button1
-            // 
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button1.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Liberation Mono", 12F);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(3, 315);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(244, 75);
-            button1.TabIndex = 29;
-            button1.Text = "Materias";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button2.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Liberation Mono", 12F);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(3, 398);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(244, 75);
-            button2.TabIndex = 30;
-            button2.Text = "Carreras";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button3.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Liberation Mono", 12F);
-            button3.ForeColor = Color.White;
-            button3.Location = new Point(3, 562);
-            button3.Margin = new Padding(3, 4, 3, 4);
-            button3.Name = "button3";
-            button3.Size = new Size(244, 75);
-            button3.TabIndex = 25;
-            button3.Text = "Horario";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += btnAñadir_Click;
-            // 
-            // button4
-            // 
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button4.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Liberation Mono", 12F);
-            button4.ForeColor = Color.White;
-            button4.Location = new Point(3, 645);
-            button4.Margin = new Padding(3, 4, 3, 4);
-            button4.Name = "button4";
-            button4.Size = new Size(244, 75);
-            button4.TabIndex = 28;
-            button4.Text = "Reporte";
-            button4.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -274,18 +308,19 @@
             // 
             // Form2
             // 
-            AutoScaleDimensions = new SizeF(10F, 18F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(38, 39, 39);
             ClientSize = new Size(1431, 793);
             Controls.Add(mainPanel);
+            Controls.Add(ptrClose);
             Controls.Add(label1);
             Controls.Add(panel1);
             Controls.Add(pcrMinimize);
-            Controls.Add(ptrClose);
             Font = new Font("Liberation Mono", 12F);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
+            MaximumSize = new Size(1431, 793);
+            MinimumSize = new Size(1431, 793);
             Name = "Form2";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
@@ -309,14 +344,17 @@
         private Panel panel1;
         private Label label1;
         private PictureBox pictureBox1;
-        private Button btnReporte;
-        private Button btnEliminar;
+        private Button btnAulaInicio;
+        private Button btnDocentes;
         private Button btnAñadir;
         private Panel mainPanel;
-        private Button button2;
-        private Button button1;
-        private Button button4;
+        private Button btnCarrerasInicio;
+        private Button btnMateriaInicio;
+        private Button btnReporteInicio;
         private Button button3;
         private Label label2;
+        private Label lblAdmin;
+        private Label label4;
+        private Label label3;
     }
 }

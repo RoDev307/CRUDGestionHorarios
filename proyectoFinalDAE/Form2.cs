@@ -93,5 +93,35 @@ namespace proyectoFinalDAE
         {
             loadForm(new formInicio());
         }
+
+        private void btnInicio_Click(object sender, EventArgs e)
+        {
+            loadForm(new formInicio());
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            loadForm(new añadirDocente());
+        }
+
+        private void btnMateriaInicio_Click(object sender, EventArgs e)
+        {
+            loadForm(new añadirMateria());
+        }
+
+        private void btnCarrerasInicio_Click(object sender, EventArgs e)
+        {
+            loadForm(new añadirCarrera());
+        }
+
+        private void btnAulaInicio_Click(object sender, EventArgs e)
+        {
+            loadForm(new añadirAula());
+        }
+
+        private void btnReporteInicio_Click(object sender, EventArgs e)
+        {
+            loadForm(new añadirReporte());
+        }
     }
 }

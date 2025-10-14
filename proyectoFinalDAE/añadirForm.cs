@@ -23,7 +23,7 @@ namespace proyectoFinalDAE
         {
             try
             {
-                if(string.IsNullOrWhiteSpace(cmbAula.Text) || string.IsNullOrWhiteSpace(cmbCarrera.Text) || string.IsNullOrWhiteSpace(txtDocente.Text) 
+                if(string.IsNullOrWhiteSpace(cmbAula.Text) || string.IsNullOrWhiteSpace(cmbCarrera.Text) || string.IsNullOrWhiteSpace(cmbDocente.Text) 
                     || string.IsNullOrWhiteSpace(cmbTipo.Text) || string.IsNullOrWhiteSpace(cmbHorario.Text) || string.IsNullOrWhiteSpace(cmbMateria.Text) 
                     || string.IsNullOrWhiteSpace(cmbDia.Text) || string.IsNullOrWhiteSpace(dtpFechaInicio.Text) || string.IsNullOrWhiteSpace(dtpFechaFin.Text))
                 {
@@ -34,7 +34,7 @@ namespace proyectoFinalDAE
                 string carrera = cmbCarrera.Text;
                 string materia = cmbMateria.Text;
                 string aula = cmbAula.Text;
-                string docente = txtDocente.Text;
+                string docente = cmbDocente.Text;
                 string grupo = cmbTipo.Text;
                 string fechaInicio = dtpFechaInicio.Text;
                 string fechaFin = dtpFechaFin.Text;
@@ -50,7 +50,7 @@ namespace proyectoFinalDAE
                 cmbCarrera.SelectedIndex = -1;
                 cmbMateria.SelectedIndex = -1;
                 cmbAula.SelectedIndex = -1;
-                txtDocente.Clear();
+                cmbDocente.SelectedIndex = -1;
                 cmbTipo.SelectedIndex = -1;
                 dtpFechaInicio.Value = DateTime.Now;
                 dtpFechaFin.Value = DateTime.Now;

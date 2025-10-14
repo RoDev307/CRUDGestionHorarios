@@ -154,7 +154,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Liberation Mono", 12F);
             button2.ForeColor = Color.White;
-            button2.Location = new Point(821, 190);
+            button2.Location = new Point(821, 179);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(333, 75);
@@ -171,7 +171,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Liberation Mono", 12F);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(821, 107);
+            button1.Location = new Point(821, 96);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(333, 75);
@@ -246,7 +246,7 @@
             btnAñadirMateria.FlatStyle = FlatStyle.Flat;
             btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
             btnAñadirMateria.ForeColor = Color.White;
-            btnAñadirMateria.Location = new Point(821, 24);
+            btnAñadirMateria.Location = new Point(821, 13);
             btnAñadirMateria.Margin = new Padding(3, 4, 3, 4);
             btnAñadirMateria.Name = "btnAñadirMateria";
             btnAñadirMateria.Size = new Size(333, 75);
@@ -256,8 +256,7 @@
             // 
             // añadirCarrera
             // 
-            AutoScaleDimensions = new SizeF(10F, 18F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(1178, 737);
             Controls.Add(label2);
@@ -278,7 +277,9 @@
             Controls.Add(btnAñadirMateria);
             Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
+            MaximumSize = new Size(1178, 737);
+            MinimumSize = new Size(1178, 737);
             Name = "añadirCarrera";
             Text = "añadirCarrera";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();

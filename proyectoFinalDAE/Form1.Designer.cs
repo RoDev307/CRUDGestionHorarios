@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
+            label2 = new Label();
             pictureBox1 = new PictureBox();
             txtUsuario = new TextBox();
             panel2 = new Panel();
@@ -48,6 +49,7 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(38, 39, 39);
+            panel1.Controls.Add(label2);
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
@@ -56,12 +58,23 @@
             panel1.TabIndex = 0;
             panel1.MouseDown += panel1_MouseDown;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(62, 167);
+            label2.Name = "label2";
+            label2.Size = new Size(103, 31);
+            label2.TabIndex = 7;
+            label2.Text = "Tempo";
+            // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(67, 98);
+            pictureBox1.Location = new Point(62, 68);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 100);
+            pictureBox1.Size = new Size(96, 96);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -141,7 +154,7 @@
             // 
             // ptrClose
             // 
-            ptrClose.Image = (Image)resources.GetObject("ptrClose.Image");
+            ptrClose.Image = Properties.Resources.icons8_close_window_50;
             ptrClose.Location = new Point(729, 0);
             ptrClose.Name = "ptrClose";
             ptrClose.Size = new Size(50, 50);
@@ -154,7 +167,7 @@
             // 
             // pcrMinimize
             // 
-            pcrMinimize.Image = (Image)resources.GetObject("pcrMinimize.Image");
+            pcrMinimize.Image = Properties.Resources.icons8_minimize_window_50;
             pcrMinimize.Location = new Point(680, 0);
             pcrMinimize.Name = "pcrMinimize";
             pcrMinimize.Size = new Size(50, 50);
@@ -167,8 +180,7 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(38, 39, 39);
             ClientSize = new Size(780, 330);
             Controls.Add(pcrMinimize);
@@ -181,6 +193,8 @@
             Controls.Add(txtUsuario);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
+            MaximumSize = new Size(780, 330);
+            MinimumSize = new Size(780, 330);
             Name = "Form1";
             Opacity = 0.9D;
             StartPosition = FormStartPosition.CenterScreen;
@@ -207,5 +221,6 @@
         private PictureBox ptrClose;
         private PictureBox pcrMinimize;
         private PictureBox pictureBox1;
+        private Label label2;
     }
 }

@@ -47,7 +47,7 @@
             label8 = new Label();
             label9 = new Label();
             label1 = new Label();
-            txtDocente = new ComboBox();
+            cmbDocente = new ComboBox();
             button2 = new Button();
             button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -278,19 +278,19 @@
             label1.TabIndex = 47;
             label1.Text = "Docente";
             // 
-            // txtDocente
+            // cmbDocente
             // 
-            txtDocente.Anchor = AnchorStyles.None;
-            txtDocente.BackColor = Color.FromArgb(51, 51, 51);
-            txtDocente.DropDownStyle = ComboBoxStyle.DropDownList;
-            txtDocente.FlatStyle = FlatStyle.Flat;
-            txtDocente.ForeColor = Color.White;
-            txtDocente.FormattingEnabled = true;
-            txtDocente.Items.AddRange(new object[] { "NA", "AULA C101", "AULA C102", "AULA C103", "COMPUTO F101", "COMPUTO F102", "COMPUTO F103" });
-            txtDocente.Location = new Point(26, 233);
-            txtDocente.Name = "txtDocente";
-            txtDocente.Size = new Size(321, 26);
-            txtDocente.TabIndex = 46;
+            cmbDocente.Anchor = AnchorStyles.None;
+            cmbDocente.BackColor = Color.FromArgb(51, 51, 51);
+            cmbDocente.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbDocente.FlatStyle = FlatStyle.Flat;
+            cmbDocente.ForeColor = Color.White;
+            cmbDocente.FormattingEnabled = true;
+            cmbDocente.Items.AddRange(new object[] { "Tec. Tatiana", "Lic. Rene", "Ing. Orantes", "Ing. Ubaldo", "Tec. Lue", "Ing. Remberto" });
+            cmbDocente.Location = new Point(26, 233);
+            cmbDocente.Name = "cmbDocente";
+            cmbDocente.Size = new Size(321, 26);
+            cmbDocente.TabIndex = 46;
             // 
             // button2
             // 
@@ -328,14 +328,13 @@
             // 
             // añadirForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 18F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(51, 51, 51);
             ClientSize = new Size(1178, 737);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
-            Controls.Add(txtDocente);
+            Controls.Add(cmbDocente);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -357,6 +356,8 @@
             Font = new Font("Liberation Mono", 12F);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
+            MaximumSize = new Size(1178, 737);
+            MinimumSize = new Size(1178, 737);
             Name = "añadirForm";
             Text = "añadirForm";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
@@ -384,7 +385,7 @@
         private Label label8;
         private Label label9;
         private Label label1;
-        private ComboBox txtDocente;
+        private ComboBox cmbDocente;
         private Button button2;
         private Button button1;
     }
