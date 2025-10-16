@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             panel1 = new Panel();
-            label2 = new Label();
             pictureBox1 = new PictureBox();
             txtUsuario = new TextBox();
             panel2 = new Panel();
@@ -48,8 +47,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(38, 39, 39);
-            panel1.Controls.Add(label2);
+            panel1.BackColor = Color.FromArgb(206, 146, 18);
             panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
@@ -58,33 +56,22 @@
             panel1.TabIndex = 0;
             panel1.MouseDown += panel1_MouseDown;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(62, 167);
-            label2.Name = "label2";
-            label2.Size = new Size(103, 31);
-            label2.TabIndex = 7;
-            label2.Text = "Tempo";
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(62, 68);
+            pictureBox1.Location = new Point(0, 102);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(96, 96);
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.Size = new Size(247, 96);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
             // txtUsuario
             // 
-            txtUsuario.BackColor = Color.FromArgb(38, 39, 39);
+            txtUsuario.BackColor = Color.FromArgb(235, 210, 153);
             txtUsuario.BorderStyle = BorderStyle.None;
             txtUsuario.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtUsuario.ForeColor = Color.White;
+            txtUsuario.ForeColor = Color.Black;
             txtUsuario.Location = new Point(315, 89);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(410, 19);
@@ -95,7 +82,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.Silver;
+            panel2.BackColor = Color.FromArgb(206, 146, 18);
             panel2.Enabled = false;
             panel2.Location = new Point(316, 114);
             panel2.Name = "panel2";
@@ -104,7 +91,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.Silver;
+            panel3.BackColor = Color.FromArgb(206, 146, 18);
             panel3.Enabled = false;
             panel3.Location = new Point(317, 204);
             panel3.Name = "panel3";
@@ -113,10 +100,10 @@
             // 
             // txtContraseña
             // 
-            txtContraseña.BackColor = Color.FromArgb(38, 39, 39);
+            txtContraseña.BackColor = Color.FromArgb(235, 210, 153);
             txtContraseña.BorderStyle = BorderStyle.None;
             txtContraseña.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtContraseña.ForeColor = Color.White;
+            txtContraseña.ForeColor = Color.Black;
             txtContraseña.Location = new Point(316, 179);
             txtContraseña.Name = "txtContraseña";
             txtContraseña.Size = new Size(410, 19);
@@ -129,8 +116,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(470, 9);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(477, 9);
             label1.Name = "label1";
             label1.Size = new Size(85, 31);
             label1.TabIndex = 6;
@@ -139,11 +126,11 @@
             // btnAcceder
             // 
             btnAcceder.FlatAppearance.BorderSize = 0;
-            btnAcceder.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAcceder.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAcceder.FlatAppearance.MouseDownBackColor = Color.FromArgb(206, 146, 18);
+            btnAcceder.FlatAppearance.MouseOverBackColor = Color.FromArgb(206, 146, 18);
             btnAcceder.FlatStyle = FlatStyle.Flat;
             btnAcceder.Font = new Font("Liberation Mono", 12F);
-            btnAcceder.ForeColor = Color.White;
+            btnAcceder.ForeColor = Color.Black;
             btnAcceder.Location = new Point(315, 238);
             btnAcceder.Name = "btnAcceder";
             btnAcceder.Size = new Size(412, 56);
@@ -181,7 +168,7 @@
             // Form1
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(38, 39, 39);
+            BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(780, 330);
             Controls.Add(pcrMinimize);
             Controls.Add(ptrClose);
@@ -201,7 +188,6 @@
             Text = "Login";
             MouseDown += Form1_MouseDown;
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)ptrClose).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).EndInit();
@@ -221,6 +207,5 @@
         private PictureBox ptrClose;
         private PictureBox pcrMinimize;
         private PictureBox pictureBox1;
-        private Label label2;
     }
 }

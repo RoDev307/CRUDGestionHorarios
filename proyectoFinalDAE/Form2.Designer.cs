@@ -33,16 +33,13 @@
             pcrMinimize = new PictureBox();
             ptrClose = new PictureBox();
             panel1 = new Panel();
-            label4 = new Label();
-            label3 = new Label();
-            lblAdmin = new Label();
+            pictureBox1 = new PictureBox();
             btnCarrerasInicio = new Button();
             btnMateriaInicio = new Button();
             btnReporteInicio = new Button();
             btnAulaInicio = new Button();
             btnDocentes = new Button();
             btnAñadir = new Button();
-            pictureBox1 = new PictureBox();
             label1 = new Label();
             mainPanel = new Panel();
             label2 = new Label();
@@ -57,11 +54,11 @@
             // btnInicio
             // 
             btnInicio.Anchor = AnchorStyles.None;
-            btnInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnInicio.BackColor = Color.FromArgb(206, 146, 18);
             btnInicio.BackgroundImageLayout = ImageLayout.Zoom;
             btnInicio.FlatAppearance.BorderSize = 0;
-            btnInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnInicio.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnInicio.FlatStyle = FlatStyle.Flat;
             btnInicio.Font = new Font("Liberation Mono", 12F);
             btnInicio.ForeColor = Color.White;
@@ -103,10 +100,8 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(38, 39, 39);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(lblAdmin);
+            panel1.BackColor = Color.FromArgb(206, 146, 18);
+            panel1.Controls.Add(pictureBox1);
             panel1.Controls.Add(btnCarrerasInicio);
             panel1.Controls.Add(btnMateriaInicio);
             panel1.Controls.Add(btnReporteInicio);
@@ -114,7 +109,6 @@
             panel1.Controls.Add(btnDocentes);
             panel1.Controls.Add(btnInicio);
             panel1.Controls.Add(btnAñadir);
-            panel1.Controls.Add(pictureBox1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
@@ -122,42 +116,23 @@
             panel1.TabIndex = 12;
             panel1.MouseDown += panel1_MouseDown;
             // 
-            // label4
+            // pictureBox1
             // 
-            label4.AutoSize = true;
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(106, 46);
-            label4.Name = "label4";
-            label4.Size = new Size(48, 18);
-            label4.TabIndex = 33;
-            label4.Text = "Hora";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(106, 82);
-            label3.Name = "label3";
-            label3.Size = new Size(38, 18);
-            label3.TabIndex = 32;
-            label3.Text = "Día";
-            // 
-            // lblAdmin
-            // 
-            lblAdmin.AutoSize = true;
-            lblAdmin.ForeColor = Color.White;
-            lblAdmin.Location = new Point(106, 9);
-            lblAdmin.Name = "lblAdmin";
-            lblAdmin.Size = new Size(138, 18);
-            lblAdmin.TabIndex = 31;
-            lblAdmin.Text = "Administrador";
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(3, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(241, 100);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 13;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // btnCarrerasInicio
             // 
-            btnCarrerasInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnCarrerasInicio.BackColor = Color.FromArgb(206, 146, 18);
             btnCarrerasInicio.FlatAppearance.BorderSize = 0;
-            btnCarrerasInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnCarrerasInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnCarrerasInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnCarrerasInicio.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnCarrerasInicio.FlatStyle = FlatStyle.Flat;
             btnCarrerasInicio.Font = new Font("Liberation Mono", 12F);
             btnCarrerasInicio.ForeColor = Color.White;
@@ -172,10 +147,10 @@
             // 
             // btnMateriaInicio
             // 
-            btnMateriaInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnMateriaInicio.BackColor = Color.FromArgb(206, 146, 18);
             btnMateriaInicio.FlatAppearance.BorderSize = 0;
-            btnMateriaInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnMateriaInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnMateriaInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnMateriaInicio.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnMateriaInicio.FlatStyle = FlatStyle.Flat;
             btnMateriaInicio.Font = new Font("Liberation Mono", 12F);
             btnMateriaInicio.ForeColor = Color.White;
@@ -190,10 +165,10 @@
             // 
             // btnReporteInicio
             // 
-            btnReporteInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnReporteInicio.BackColor = Color.FromArgb(206, 146, 18);
             btnReporteInicio.FlatAppearance.BorderSize = 0;
-            btnReporteInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnReporteInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnReporteInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnReporteInicio.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnReporteInicio.FlatStyle = FlatStyle.Flat;
             btnReporteInicio.Font = new Font("Liberation Mono", 12F);
             btnReporteInicio.ForeColor = Color.White;
@@ -208,10 +183,10 @@
             // 
             // btnAulaInicio
             // 
-            btnAulaInicio.BackColor = Color.FromArgb(42, 42, 42);
+            btnAulaInicio.BackColor = Color.FromArgb(206, 146, 18);
             btnAulaInicio.FlatAppearance.BorderSize = 0;
-            btnAulaInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAulaInicio.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAulaInicio.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnAulaInicio.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnAulaInicio.FlatStyle = FlatStyle.Flat;
             btnAulaInicio.Font = new Font("Liberation Mono", 12F);
             btnAulaInicio.ForeColor = Color.White;
@@ -226,10 +201,10 @@
             // 
             // btnDocentes
             // 
-            btnDocentes.BackColor = Color.FromArgb(42, 42, 42);
+            btnDocentes.BackColor = Color.FromArgb(206, 146, 18);
             btnDocentes.FlatAppearance.BorderSize = 0;
-            btnDocentes.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnDocentes.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnDocentes.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnDocentes.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnDocentes.FlatStyle = FlatStyle.Flat;
             btnDocentes.Font = new Font("Liberation Mono", 12F);
             btnDocentes.ForeColor = Color.White;
@@ -244,10 +219,10 @@
             // 
             // btnAñadir
             // 
-            btnAñadir.BackColor = Color.FromArgb(42, 42, 42);
+            btnAñadir.BackColor = Color.FromArgb(206, 146, 18);
             btnAñadir.FlatAppearance.BorderSize = 0;
-            btnAñadir.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAñadir.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAñadir.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnAñadir.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnAñadir.FlatStyle = FlatStyle.Flat;
             btnAñadir.Font = new Font("Liberation Mono", 12F);
             btnAñadir.ForeColor = Color.White;
@@ -260,22 +235,11 @@
             btnAñadir.UseVisualStyleBackColor = false;
             btnAñadir.Click += btnAñadir_Click;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 100);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 13;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
-            // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(686, 9);
             label1.Name = "label1";
             label1.Size = new Size(269, 31);
@@ -284,7 +248,7 @@
             // 
             // mainPanel
             // 
-            mainPanel.BackColor = Color.FromArgb(51, 51, 51);
+            mainPanel.BackColor = Color.WhiteSmoke;
             mainPanel.Controls.Add(label2);
             mainPanel.Location = new Point(250, 56);
             mainPanel.MaximumSize = new Size(1178, 737);
@@ -298,7 +262,7 @@
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.Black;
             label2.Location = new Point(324, 93);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
@@ -309,7 +273,7 @@
             // Form2
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(38, 39, 39);
+            BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(1431, 793);
             Controls.Add(mainPanel);
             Controls.Add(ptrClose);
@@ -329,7 +293,6 @@
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).EndInit();
             ((System.ComponentModel.ISupportInitialize)ptrClose).EndInit();
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             mainPanel.ResumeLayout(false);
             mainPanel.PerformLayout();
@@ -353,8 +316,5 @@
         private Button btnReporteInicio;
         private Button button3;
         private Label label2;
-        private Label lblAdmin;
-        private Label label4;
-        private Label label3;
     }
 }

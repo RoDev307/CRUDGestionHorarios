@@ -1,0 +1,15 @@
+
+dotnet tool install --global dotnet-ef 
+dotnet add package Microsoft.EntityFrameworkCore 
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+dotnet add package Microsoft.EntityFrameworkCore.Design 
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+
+
+dotnet ef dbcontext scaffold "Server=localhost\SQLEXPRESS;Database=SistemaHorariosItca; Trusted_Connection=True; Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -o Modelos
+
+dotnet ef dbcontext scaffold "Server=localhost\SQLEXPRESS;Database=SistemaHorariosItca; Trusted_Connection=True; Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Modelos --force
+ 
+ 
+
+dotnet ef dbcontext scaffold "Server=localhost; Database=INVENTARIO; User ID=itca; Password=2025Passw_1234; Trusted_Connection=True; Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -o Modelos

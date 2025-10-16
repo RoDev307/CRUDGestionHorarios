@@ -37,7 +37,7 @@
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(316, 334);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
@@ -50,7 +50,7 @@
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.Black;
             label2.Location = new Point(475, 381);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
@@ -61,7 +61,7 @@
             // formInicio
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(51, 51, 51);
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(1178, 737);
             Controls.Add(label2);
             Controls.Add(label1);

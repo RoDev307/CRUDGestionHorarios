@@ -57,12 +57,12 @@
             // 
             btnAñadirMateria.Anchor = AnchorStyles.None;
             btnAñadirMateria.FlatAppearance.BorderSize = 0;
-            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(235, 210, 153);
+            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.FromArgb(235, 210, 153);
             btnAñadirMateria.FlatStyle = FlatStyle.Flat;
             btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
-            btnAñadirMateria.ForeColor = Color.White;
-            btnAñadirMateria.Location = new Point(809, 96);
+            btnAñadirMateria.ForeColor = Color.Black;
+            btnAñadirMateria.Location = new Point(809, 40);
             btnAñadirMateria.Margin = new Padding(3, 4, 3, 4);
             btnAñadirMateria.Name = "btnAñadirMateria";
             btnAñadirMateria.Size = new Size(333, 75);
@@ -153,7 +153,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.ForeColor = Color.White;
+            label2.ForeColor = Color.Black;
             label2.Location = new Point(425, 94);
             label2.Name = "label2";
             label2.Size = new Size(128, 18);
@@ -163,7 +163,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.ForeColor = Color.White;
+            label3.ForeColor = Color.Black;
             label3.Location = new Point(425, 152);
             label3.Name = "label3";
             label3.Size = new Size(98, 18);
@@ -211,7 +211,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.ForeColor = Color.White;
+            label4.ForeColor = Color.Black;
             label4.Location = new Point(25, 38);
             label4.Name = "label4";
             label4.Size = new Size(78, 18);
@@ -221,7 +221,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.ForeColor = Color.White;
+            label5.ForeColor = Color.Black;
             label5.Location = new Point(25, 96);
             label5.Name = "label5";
             label5.Size = new Size(78, 18);
@@ -231,7 +231,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.ForeColor = Color.White;
+            label6.ForeColor = Color.Black;
             label6.Location = new Point(25, 152);
             label6.Name = "label6";
             label6.Size = new Size(48, 18);
@@ -241,7 +241,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.ForeColor = Color.White;
+            label7.ForeColor = Color.Black;
             label7.Location = new Point(425, 40);
             label7.Name = "label7";
             label7.Size = new Size(108, 18);
@@ -251,7 +251,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.ForeColor = Color.White;
+            label8.ForeColor = Color.Black;
             label8.Location = new Point(425, 212);
             label8.Name = "label8";
             label8.Size = new Size(78, 18);
@@ -261,7 +261,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.ForeColor = Color.White;
+            label9.ForeColor = Color.Black;
             label9.Location = new Point(26, 266);
             label9.Name = "label9";
             label9.Size = new Size(38, 18);
@@ -271,7 +271,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.ForeColor = Color.White;
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(26, 212);
             label1.Name = "label1";
             label1.Size = new Size(78, 18);
@@ -296,12 +296,12 @@
             // 
             button2.Anchor = AnchorStyles.None;
             button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button2.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(235, 210, 153);
+            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(235, 210, 153);
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Liberation Mono", 12F);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(809, 262);
+            button2.ForeColor = Color.Black;
+            button2.Location = new Point(809, 207);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
             button2.Size = new Size(333, 75);
@@ -313,12 +313,12 @@
             // 
             button1.Anchor = AnchorStyles.None;
             button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button1.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(235, 210, 153);
+            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(235, 210, 153);
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Liberation Mono", 12F);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(809, 179);
+            button1.ForeColor = Color.Black;
+            button1.Location = new Point(809, 124);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(333, 75);
@@ -329,7 +329,7 @@
             // añadirForm
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(51, 51, 51);
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(1178, 737);
             Controls.Add(button2);
             Controls.Add(button1);
