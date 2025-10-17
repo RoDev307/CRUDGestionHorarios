@@ -18,6 +18,7 @@ namespace proyectoFinalDAE.Clases
                 context.SaveChanges();
             }
         }
+        //Metodo para modificar docentes
         public void actualizar(Docente docente)
         {
             using (var context = new SistemaHorariosItcaContext())
@@ -26,7 +27,7 @@ namespace proyectoFinalDAE.Clases
                 context.SaveChanges();
             }
         }
-        //Metodo eliminar
+        //Metodo eliminar docentes 
         public void eliminar(Docente docente)
         {
             using (var context = new SistemaHorariosItcaContext())
