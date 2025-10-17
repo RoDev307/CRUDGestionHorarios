@@ -64,7 +64,7 @@
             // panel2
             // 
             panel2.Anchor = AnchorStyles.None;
-            panel2.BackColor = Color.Silver;
+            panel2.BackColor = Color.FromArgb(206, 146, 18);
             panel2.Enabled = false;
             panel2.Location = new Point(26, 62);
             panel2.Name = "panel2";
@@ -74,10 +74,10 @@
             // txtNombreDocente
             // 
             txtNombreDocente.Anchor = AnchorStyles.None;
-            txtNombreDocente.BackColor = Color.FromArgb(51, 51, 51);
+            txtNombreDocente.BackColor = Color.FromArgb(235, 210, 153);
             txtNombreDocente.BorderStyle = BorderStyle.None;
             txtNombreDocente.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtNombreDocente.ForeColor = Color.White;
+            txtNombreDocente.ForeColor = Color.Black;
             txtNombreDocente.Location = new Point(25, 37);
             txtNombreDocente.Name = "txtNombreDocente";
             txtNombreDocente.Size = new Size(321, 19);
@@ -88,11 +88,11 @@
             // 
             btnAñadirMateria.Anchor = AnchorStyles.None;
             btnAñadirMateria.FlatAppearance.BorderSize = 0;
-            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnAñadirMateria.FlatStyle = FlatStyle.Flat;
             btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
-            btnAñadirMateria.ForeColor = Color.White;
+            btnAñadirMateria.ForeColor = Color.Black;
             btnAñadirMateria.Location = new Point(821, 37);
             btnAñadirMateria.Margin = new Padding(3, 4, 3, 4);
             btnAñadirMateria.Name = "btnAñadirMateria";
@@ -105,9 +105,9 @@
             // panel1
             // 
             panel1.Anchor = AnchorStyles.None;
-            panel1.BackColor = Color.Silver;
+            panel1.BackColor = Color.FromArgb(206, 146, 18);
             panel1.Enabled = false;
-            panel1.Location = new Point(372, 62);
+            panel1.Location = new Point(448, 62);
             panel1.Name = "panel1";
             panel1.Size = new Size(321, 2);
             panel1.TabIndex = 38;
@@ -115,11 +115,11 @@
             // txtApellidos
             // 
             txtApellidos.Anchor = AnchorStyles.None;
-            txtApellidos.BackColor = Color.FromArgb(51, 51, 51);
+            txtApellidos.BackColor = Color.FromArgb(235, 210, 153);
             txtApellidos.BorderStyle = BorderStyle.None;
             txtApellidos.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtApellidos.ForeColor = Color.White;
-            txtApellidos.Location = new Point(371, 37);
+            txtApellidos.ForeColor = Color.Black;
+            txtApellidos.Location = new Point(447, 37);
             txtApellidos.Name = "txtApellidos";
             txtApellidos.Size = new Size(321, 19);
             txtApellidos.TabIndex = 37;
@@ -129,11 +129,11 @@
             // 
             button1.Anchor = AnchorStyles.None;
             button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button1.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            button1.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Liberation Mono", 12F);
-            button1.ForeColor = Color.White;
+            button1.ForeColor = Color.Black;
             button1.Location = new Point(821, 120);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
@@ -141,16 +141,17 @@
             button1.TabIndex = 39;
             button1.Text = "Modificar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
             button2.Anchor = AnchorStyles.None;
             button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button2.FlatAppearance.MouseOverBackColor = Color.Silver;
+            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            button2.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Liberation Mono", 12F);
-            button2.ForeColor = Color.White;
+            button2.ForeColor = Color.Black;
             button2.Location = new Point(821, 203);
             button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
@@ -158,11 +159,12 @@
             button2.TabIndex = 40;
             button2.Text = "Eliminar";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // panel3
             // 
             panel3.Anchor = AnchorStyles.None;
-            panel3.BackColor = Color.Silver;
+            panel3.BackColor = Color.FromArgb(206, 146, 18);
             panel3.Enabled = false;
             panel3.Location = new Point(27, 118);
             panel3.Name = "panel3";
@@ -172,10 +174,10 @@
             // txtDireccion
             // 
             txtDireccion.Anchor = AnchorStyles.None;
-            txtDireccion.BackColor = Color.FromArgb(51, 51, 51);
+            txtDireccion.BackColor = Color.FromArgb(235, 210, 153);
             txtDireccion.BorderStyle = BorderStyle.None;
             txtDireccion.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtDireccion.ForeColor = Color.White;
+            txtDireccion.ForeColor = Color.Black;
             txtDireccion.Location = new Point(26, 93);
             txtDireccion.Name = "txtDireccion";
             txtDireccion.Size = new Size(321, 19);
@@ -185,9 +187,9 @@
             // panel4
             // 
             panel4.Anchor = AnchorStyles.None;
-            panel4.BackColor = Color.Silver;
+            panel4.BackColor = Color.FromArgb(206, 146, 18);
             panel4.Enabled = false;
-            panel4.Location = new Point(372, 118);
+            panel4.Location = new Point(448, 118);
             panel4.Name = "panel4";
             panel4.Size = new Size(321, 2);
             panel4.TabIndex = 44;
@@ -195,11 +197,11 @@
             // txtTelefono
             // 
             txtTelefono.Anchor = AnchorStyles.None;
-            txtTelefono.BackColor = Color.FromArgb(51, 51, 51);
+            txtTelefono.BackColor = Color.FromArgb(235, 210, 153);
             txtTelefono.BorderStyle = BorderStyle.None;
             txtTelefono.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtTelefono.ForeColor = Color.White;
-            txtTelefono.Location = new Point(371, 93);
+            txtTelefono.ForeColor = Color.Black;
+            txtTelefono.Location = new Point(447, 93);
             txtTelefono.Name = "txtTelefono";
             txtTelefono.Size = new Size(321, 19);
             txtTelefono.TabIndex = 43;
@@ -208,7 +210,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.ForeColor = Color.White;
+            label4.ForeColor = Color.Black;
             label4.Location = new Point(26, 128);
             label4.Name = "label4";
             label4.Size = new Size(158, 18);
@@ -218,10 +220,10 @@
             // cmbNivelAcademico
             // 
             cmbNivelAcademico.Anchor = AnchorStyles.None;
-            cmbNivelAcademico.BackColor = Color.FromArgb(51, 51, 51);
+            cmbNivelAcademico.BackColor = Color.White;
             cmbNivelAcademico.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbNivelAcademico.FlatStyle = FlatStyle.Flat;
-            cmbNivelAcademico.ForeColor = Color.White;
+            cmbNivelAcademico.ForeColor = Color.Black;
             cmbNivelAcademico.FormattingEnabled = true;
             cmbNivelAcademico.ImeMode = ImeMode.NoControl;
             cmbNivelAcademico.Items.AddRange(new object[] { "Ingeniería", "Técnico", "Licenciatura" });
@@ -233,7 +235,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.ForeColor = Color.White;
+            label1.ForeColor = Color.Black;
             label1.Location = new Point(26, 182);
             label1.Name = "label1";
             label1.Size = new Size(208, 18);
@@ -243,10 +245,10 @@
             // cmbHorariosDisp
             // 
             cmbHorariosDisp.Anchor = AnchorStyles.None;
-            cmbHorariosDisp.BackColor = Color.FromArgb(51, 51, 51);
+            cmbHorariosDisp.BackColor = Color.White;
             cmbHorariosDisp.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbHorariosDisp.FlatStyle = FlatStyle.Flat;
-            cmbHorariosDisp.ForeColor = Color.White;
+            cmbHorariosDisp.ForeColor = Color.Black;
             cmbHorariosDisp.FormattingEnabled = true;
             cmbHorariosDisp.ImeMode = ImeMode.NoControl;
             cmbHorariosDisp.Items.AddRange(new object[] { "Lunes a Viernes 7:00-15:00", "Lunes, Miércoles, Viernes 14:00-18:00", "Martes y Jueves 8:00-12:00" });
@@ -258,8 +260,8 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(371, 128);
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(447, 128);
             label3.Name = "label3";
             label3.Size = new Size(48, 18);
             label3.TabIndex = 54;
@@ -268,14 +270,14 @@
             // cmbTipo
             // 
             cmbTipo.Anchor = AnchorStyles.None;
-            cmbTipo.BackColor = Color.FromArgb(51, 51, 51);
+            cmbTipo.BackColor = Color.White;
             cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipo.FlatStyle = FlatStyle.Flat;
-            cmbTipo.ForeColor = Color.White;
+            cmbTipo.ForeColor = Color.Black;
             cmbTipo.FormattingEnabled = true;
             cmbTipo.ImeMode = ImeMode.NoControl;
             cmbTipo.Items.AddRange(new object[] { "Tiempo completo", "Hora Clase", "Medio Tiempo" });
-            cmbTipo.Location = new Point(372, 149);
+            cmbTipo.Location = new Point(448, 149);
             cmbTipo.Name = "cmbTipo";
             cmbTipo.Size = new Size(321, 26);
             cmbTipo.TabIndex = 53;
@@ -283,7 +285,7 @@
             // añadirDocente
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(51, 51, 51);
+            BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(1178, 737);
             Controls.Add(label3);
             Controls.Add(cmbTipo);
@@ -304,6 +306,7 @@
             Controls.Add(txtNombreDocente);
             Controls.Add(btnAñadirMateria);
             Font = new Font("Liberation Mono", 12F);
+            ForeColor = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
             MaximumSize = new Size(1178, 737);

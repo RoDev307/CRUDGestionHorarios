@@ -57,8 +57,8 @@
             // 
             btnAñadirMateria.Anchor = AnchorStyles.None;
             btnAñadirMateria.FlatAppearance.BorderSize = 0;
-            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(235, 210, 153);
-            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.FromArgb(235, 210, 153);
+            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnAñadirMateria.FlatStyle = FlatStyle.Flat;
             btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
             btnAñadirMateria.ForeColor = Color.Black;
@@ -74,10 +74,10 @@
             // cmbMateria
             // 
             cmbMateria.Anchor = AnchorStyles.None;
-            cmbMateria.BackColor = Color.FromArgb(51, 51, 51);
+            cmbMateria.BackColor = Color.White;
             cmbMateria.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbMateria.FlatStyle = FlatStyle.Flat;
-            cmbMateria.ForeColor = Color.White;
+            cmbMateria.ForeColor = Color.Black;
             cmbMateria.FormattingEnabled = true;
             cmbMateria.Items.AddRange(new object[] { "Desarrollo de Lógica de Programación (Código: TDS1.1)", "Desarrollo de Páginas Web (Código: TDS1.2)", "Análisis y Diseño de Sistemas (Código: TDS1.3)", "Conversación en Inglés sobre Sistemas Informáticos y Desarrollo de Páginas Web (Código: TDS1.4)", "Diseño de Planes de Negocios en Asociatividad Cooperativa (Código: TDS1.5)", "Diseño de Base de Datos Relacionales (Código: TDS1.6)", "Gestión de herramientas web y contenido multimedia (Código: TDS1.7)", "Desarrollo de aplicaciones de escritorio (Código: TDS1.8)", "Configuración de redes informaticas (Código: TDS1.9)", "Conversación en Inglés sobre arquitectura de software (Código: TDS1.10)", "Puesta en marcha de la microempresa en asociatica cooperativa (Código: TDS1.11)" });
             cmbMateria.Location = new Point(25, 117);
@@ -88,10 +88,10 @@
             // cmbCarrera
             // 
             cmbCarrera.Anchor = AnchorStyles.None;
-            cmbCarrera.BackColor = Color.FromArgb(51, 51, 51);
+            cmbCarrera.BackColor = Color.White;
             cmbCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbCarrera.FlatStyle = FlatStyle.Flat;
-            cmbCarrera.ForeColor = Color.White;
+            cmbCarrera.ForeColor = Color.Black;
             cmbCarrera.FormattingEnabled = true;
             cmbCarrera.ImeMode = ImeMode.NoControl;
             cmbCarrera.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
@@ -103,10 +103,10 @@
             // cmbAula
             // 
             cmbAula.Anchor = AnchorStyles.None;
-            cmbAula.BackColor = Color.FromArgb(51, 51, 51);
+            cmbAula.BackColor = Color.White;
             cmbAula.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbAula.FlatStyle = FlatStyle.Flat;
-            cmbAula.ForeColor = Color.White;
+            cmbAula.ForeColor = Color.Black;
             cmbAula.FormattingEnabled = true;
             cmbAula.Items.AddRange(new object[] { "NA", "AULA C101", "AULA C102", "AULA C103", "COMPUTO F101", "COMPUTO F102", "COMPUTO F103" });
             cmbAula.Location = new Point(25, 173);
@@ -129,10 +129,10 @@
             // cmbTipo
             // 
             cmbTipo.Anchor = AnchorStyles.None;
-            cmbTipo.BackColor = Color.FromArgb(51, 51, 51);
+            cmbTipo.BackColor = Color.White;
             cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipo.FlatStyle = FlatStyle.Flat;
-            cmbTipo.ForeColor = Color.White;
+            cmbTipo.ForeColor = Color.Black;
             cmbTipo.FormattingEnabled = true;
             cmbTipo.Items.AddRange(new object[] { "(TEO) TDS122 - GRP.UNICO", "(TEO) TDS122 - GRP.A", "(TEO) TDS122 - GRP.B", "(PRA) TDS122 - GRP.UNICO", "(PRA) TDS122 - GRP.B", "(PRA) TDS122 - GRP.A" });
             cmbTipo.Location = new Point(425, 59);
@@ -183,10 +183,10 @@
             // cmbHorario
             // 
             cmbHorario.Anchor = AnchorStyles.None;
-            cmbHorario.BackColor = Color.FromArgb(51, 51, 51);
+            cmbHorario.BackColor = Color.White;
             cmbHorario.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbHorario.FlatStyle = FlatStyle.Flat;
-            cmbHorario.ForeColor = Color.White;
+            cmbHorario.ForeColor = Color.Black;
             cmbHorario.FormattingEnabled = true;
             cmbHorario.Items.AddRange(new object[] { "7:00AM-7:50AM", "7:50AM-8:40AM", "7:00AM-10:40AM", "7:00AM-12:40PM", "9:50AM-10:40AM", "11:00AM-11:50AM", "11:00AM-2:50PM", "1:10PM-4:40PM", "1:10PM-2:50PM", "3:00PM-4:40PM", "3:00PM-5:30PM" });
             cmbHorario.Location = new Point(425, 233);
@@ -197,10 +197,10 @@
             // cmbDia
             // 
             cmbDia.Anchor = AnchorStyles.None;
-            cmbDia.BackColor = Color.FromArgb(51, 51, 51);
+            cmbDia.BackColor = Color.White;
             cmbDia.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbDia.FlatStyle = FlatStyle.Flat;
-            cmbDia.ForeColor = Color.White;
+            cmbDia.ForeColor = Color.Black;
             cmbDia.FormattingEnabled = true;
             cmbDia.Items.AddRange(new object[] { "LUN", "MAR", "MIE", "JUE", "VIE", "SAB", "DOM" });
             cmbDia.Location = new Point(26, 287);
@@ -281,10 +281,10 @@
             // cmbDocente
             // 
             cmbDocente.Anchor = AnchorStyles.None;
-            cmbDocente.BackColor = Color.FromArgb(51, 51, 51);
+            cmbDocente.BackColor = Color.White;
             cmbDocente.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbDocente.FlatStyle = FlatStyle.Flat;
-            cmbDocente.ForeColor = Color.White;
+            cmbDocente.ForeColor = Color.Black;
             cmbDocente.FormattingEnabled = true;
             cmbDocente.Items.AddRange(new object[] { "Tec. Tatiana", "Lic. Rene", "Ing. Orantes", "Ing. Ubaldo", "Tec. Lue", "Ing. Remberto" });
             cmbDocente.Location = new Point(26, 233);
@@ -329,7 +329,7 @@
             // añadirForm
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.WhiteSmoke;
+            BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(1178, 737);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -360,6 +360,7 @@
             MinimumSize = new Size(1178, 737);
             Name = "añadirForm";
             Text = "añadirForm";
+            Load += añadirForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();

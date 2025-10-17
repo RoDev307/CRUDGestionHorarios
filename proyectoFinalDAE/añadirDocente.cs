@@ -24,8 +24,9 @@ namespace proyectoFinalDAE
         {
             try
             {
-                if(string.IsNullOrWhiteSpace(txtNombreDocente.Text) || string.IsNullOrWhiteSpace(txtApellidos.Text) || 
-                    string.IsNullOrWhiteSpace(txtDireccion.Text) || string.IsNullOrWhiteSpace(txtTelefono.Text))
+                if (string.IsNullOrWhiteSpace(txtNombreDocente.Text) || string.IsNullOrWhiteSpace(txtApellidos.Text) ||
+                    string.IsNullOrWhiteSpace(txtDireccion.Text) || string.IsNullOrWhiteSpace(txtTelefono.Text) || string.IsNullOrWhiteSpace(cmbNivelAcademico.Text)
+                    || string.IsNullOrWhiteSpace(cmbHorariosDisp.Text) || string.IsNullOrWhiteSpace(cmbTipo.Text))
                 {
                     MessageBox.Show("Por favor, complete todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
@@ -51,7 +52,7 @@ namespace proyectoFinalDAE
                 MessageBox.Show("Docente agregado correctamente");
                 CargarDatosDocentes();
             }
-            
+
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -62,11 +63,22 @@ namespace proyectoFinalDAE
         {
             CargarDatosDocentes();
         }
+
         public void CargarDatosDocentes()
         {
             dataGridViewDocentes.DataSource = null;
             dataGridViewDocentes.DataSource = gest.listarDocentes();
             dataGridViewDocentes.ClearSelection();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

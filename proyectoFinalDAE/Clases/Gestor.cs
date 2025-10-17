@@ -18,6 +18,23 @@ namespace proyectoFinalDAE.Clases
                 context.SaveChanges();
             }
         }
+        public void actualizar(Docente docente)
+        {
+            using (var context = new SistemaHorariosItcaContext())
+            {
+                context.Update(docente);
+                context.SaveChanges();
+            }
+        }
+        //Metodo eliminar
+        public void eliminar(Docente docente)
+        {
+            using (var context = new SistemaHorariosItcaContext())
+            {
+                context.Remove(docente);
+                context.SaveChanges();
+            }
+        }
         public List<VwDocentesInformacion> listarDocentes()
         {
             using (var context = new SistemaHorariosItcaContext())

@@ -23,8 +23,8 @@ namespace proyectoFinalDAE
         {
             try
             {
-                if(string.IsNullOrWhiteSpace(cmbAula.Text) || string.IsNullOrWhiteSpace(cmbCarrera.Text) || string.IsNullOrWhiteSpace(cmbDocente.Text) 
-                    || string.IsNullOrWhiteSpace(cmbTipo.Text) || string.IsNullOrWhiteSpace(cmbHorario.Text) || string.IsNullOrWhiteSpace(cmbMateria.Text) 
+                if (string.IsNullOrWhiteSpace(cmbAula.Text) || string.IsNullOrWhiteSpace(cmbCarrera.Text) || string.IsNullOrWhiteSpace(cmbDocente.Text)
+                    || string.IsNullOrWhiteSpace(cmbTipo.Text) || string.IsNullOrWhiteSpace(cmbHorario.Text) || string.IsNullOrWhiteSpace(cmbMateria.Text)
                     || string.IsNullOrWhiteSpace(cmbDia.Text) || string.IsNullOrWhiteSpace(dtpFechaInicio.Text) || string.IsNullOrWhiteSpace(dtpFechaFin.Text))
                 {
                     MessageBox.Show("Por favor, complete todos los campos.", "Campos incompletos",
@@ -63,6 +63,11 @@ namespace proyectoFinalDAE
                 MessageBox.Show($"Ocurrió un error: {ex.Message}", "ERROR",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void añadirForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
