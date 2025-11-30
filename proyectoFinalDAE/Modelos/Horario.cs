@@ -7,33 +7,43 @@ public partial class Horario
 {
     public int IdHorario { get; set; }
 
-    public int Carrera { get; set; }
+    public int IdSeccion { get; set; }
 
-    public int Materia { get; set; }
+    public int? IdAula { get; set; }
 
-    public int Aula { get; set; }
+    public int IdAsignatura { get; set; }
 
-    public int Docente { get; set; }
+    public int? IdDocente { get; set; }
 
-    public string Dia { get; set; } = null!;
+    public string TipoClase { get; set; } = null!;
 
-    public string? Grupo { get; set; }
+    public string? SemanaRango { get; set; }
 
-    public string? Familia { get; set; }
+    public string Estado { get; set; } = null!;
 
-    public DateOnly? FechaInicio { get; set; }
+    public string? ModalidadClase { get; set; }
 
-    public DateOnly? FechaFin { get; set; }
+    public string? Dia { get; set; }
 
     public TimeOnly? HoraInicio { get; set; }
 
-    public int? CantidadHoras { get; set; }
+    public TimeOnly? HoraFin { get; set; }
 
-    public virtual Aula AulaNavigation { get; set; } = null!;
+    public string? Carrera { get; set; }
 
-    public virtual Carrera CarreraNavigation { get; set; } = null!;
+    public string? Ciclo { get; set; }
 
-    public virtual Docente DocenteNavigation { get; set; } = null!;
+    public string? Naturaleza { get; set; }
 
-    public virtual Materia MateriaNavigation { get; set; } = null!;
+    public string? Familia { get; set; }
+
+    public string? CodigoAula { get; set; }
+
+    public virtual Asignatura IdAsignaturaNavigation { get; set; } = null!;
+
+    public virtual Aula? IdAulaNavigation { get; set; }
+
+    public virtual Docente? IdDocenteNavigation { get; set; }
+
+    public virtual Seccion IdSeccionNavigation { get; set; } = null!;
 }

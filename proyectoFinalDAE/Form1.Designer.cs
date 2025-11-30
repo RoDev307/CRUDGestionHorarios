@@ -39,10 +39,12 @@
             btnAcceder = new Button();
             ptrClose = new PictureBox();
             pcrMinimize = new PictureBox();
+            pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ptrClose).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -78,6 +80,7 @@
             txtUsuario.TabIndex = 1;
             txtUsuario.Text = "USUARIO";
             txtUsuario.Enter += txtUsuario_Enter;
+            txtUsuario.KeyDown += txtUsuario_KeyDown;
             txtUsuario.Leave += txtUsuario_Leave;
             // 
             // panel2
@@ -110,6 +113,7 @@
             txtContraseña.TabIndex = 4;
             txtContraseña.Text = "CONTRASEÑA";
             txtContraseña.Enter += txtContraseña_Enter;
+            txtContraseña.KeyDown += txtContraseña_KeyDown;
             txtContraseña.Leave += txtContraseña_Leave;
             // 
             // label1
@@ -165,16 +169,28 @@
             pcrMinimize.MouseEnter += pcrMinimize_MouseEnter;
             pcrMinimize.MouseLeave += pcrMinimize_MouseLeave;
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.icons8_eye_96Closed;
+            pictureBox2.Location = new Point(682, 159);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(45, 47);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 10;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
             // Form1
             // 
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(780, 330);
+            Controls.Add(panel3);
+            Controls.Add(pictureBox2);
             Controls.Add(pcrMinimize);
             Controls.Add(ptrClose);
             Controls.Add(btnAcceder);
             Controls.Add(label1);
-            Controls.Add(panel3);
             Controls.Add(txtContraseña);
             Controls.Add(panel2);
             Controls.Add(txtUsuario);
@@ -186,11 +202,13 @@
             Opacity = 0.9D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            KeyDown += Form1_KeyDown;
             MouseDown += Form1_MouseDown;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)ptrClose).EndInit();
             ((System.ComponentModel.ISupportInitialize)pcrMinimize).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -207,5 +225,6 @@
         private PictureBox ptrClose;
         private PictureBox pcrMinimize;
         private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }

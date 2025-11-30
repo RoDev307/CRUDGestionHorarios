@@ -28,282 +28,231 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            dvgCarreras = new DataGridView();
+            checkActiva = new CheckBox();
             label2 = new Label();
-            comboBox2 = new ComboBox();
-            label1 = new Label();
-            comboBox1 = new ComboBox();
-            label4 = new Label();
-            cmbCarrera = new ComboBox();
-            panel4 = new Panel();
-            textBox3 = new TextBox();
-            button2 = new Button();
-            button1 = new Button();
+            combEspecialidadCarrera = new ComboBox();
             panel1 = new Panel();
-            textBox1 = new TextBox();
-            dataGridView1 = new DataGridView();
+            textNombreCarrera = new TextBox();
             panel2 = new Panel();
-            txtDocente = new TextBox();
+            txtCodigoCarrera = new TextBox();
             btnAñadirMateria = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            label3 = new Label();
+            pictureBox1 = new PictureBox();
+            btnResetGrupo = new Button();
+            ttAyuda = new ToolTip(components);
+            ((System.ComponentModel.ISupportInitialize)dvgCarreras).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
+            // 
+            // dvgCarreras
+            // 
+            dvgCarreras.BorderStyle = BorderStyle.None;
+            dvgCarreras.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dvgCarreras.Location = new Point(25, 289);
+            dvgCarreras.Name = "dvgCarreras";
+            dvgCarreras.ReadOnly = true;
+            dvgCarreras.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            dvgCarreras.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dvgCarreras.Size = new Size(1129, 423);
+            dvgCarreras.TabIndex = 56;
+            dvgCarreras.CellDoubleClick += dvgCarreras_CellDoubleClick;
+            dvgCarreras.CellValueChanged += dvgCarreras_CellValueChanged;
+            dvgCarreras.CurrentCellDirtyStateChanged += dvgCarreras_CurrentCellDirtyStateChanged;
+            dvgCarreras.KeyDown += dvgCarreras_KeyDown;
+            // 
+            // checkActiva
+            // 
+            checkActiva.AutoSize = true;
+            checkActiva.Checked = true;
+            checkActiva.CheckState = CheckState.Checked;
+            checkActiva.Location = new Point(372, 150);
+            checkActiva.Name = "checkActiva";
+            checkActiva.Size = new Size(71, 24);
+            checkActiva.TabIndex = 81;
+            checkActiva.Text = "Activa";
+            checkActiva.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(371, 115);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(25, 127);
             label2.Name = "label2";
-            label2.Size = new Size(128, 18);
-            label2.TabIndex = 70;
+            label2.Size = new Size(99, 20);
+            label2.TabIndex = 80;
             label2.Text = "Especialidad";
             // 
-            // comboBox2
+            // combEspecialidadCarrera
             // 
-            comboBox2.Anchor = AnchorStyles.None;
-            comboBox2.BackColor = Color.FromArgb(51, 51, 51);
-            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox2.FlatStyle = FlatStyle.Flat;
-            comboBox2.ForeColor = Color.White;
-            comboBox2.FormattingEnabled = true;
-            comboBox2.ImeMode = ImeMode.NoControl;
-            comboBox2.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            comboBox2.Location = new Point(372, 136);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(321, 26);
-            comboBox2.TabIndex = 69;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(27, 115);
-            label1.Name = "label1";
-            label1.Size = new Size(308, 18);
-            label1.TabIndex = 68;
-            label1.Text = "Horarios (Matutino/vespertino)";
-            // 
-            // comboBox1
-            // 
-            comboBox1.Anchor = AnchorStyles.None;
-            comboBox1.BackColor = Color.FromArgb(51, 51, 51);
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.FlatStyle = FlatStyle.Flat;
-            comboBox1.ForeColor = Color.White;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.ImeMode = ImeMode.NoControl;
-            comboBox1.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            comboBox1.Location = new Point(28, 136);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(321, 26);
-            comboBox1.TabIndex = 67;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(26, 60);
-            label4.Name = "label4";
-            label4.Size = new Size(58, 18);
-            label4.TabIndex = 66;
-            label4.Text = "Ciclo";
-            // 
-            // cmbCarrera
-            // 
-            cmbCarrera.Anchor = AnchorStyles.None;
-            cmbCarrera.BackColor = Color.FromArgb(51, 51, 51);
-            cmbCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbCarrera.FlatStyle = FlatStyle.Flat;
-            cmbCarrera.ForeColor = Color.White;
-            cmbCarrera.FormattingEnabled = true;
-            cmbCarrera.ImeMode = ImeMode.NoControl;
-            cmbCarrera.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            cmbCarrera.Location = new Point(27, 81);
-            cmbCarrera.Name = "cmbCarrera";
-            cmbCarrera.Size = new Size(321, 26);
-            cmbCarrera.TabIndex = 65;
-            // 
-            // panel4
-            // 
-            panel4.Anchor = AnchorStyles.None;
-            panel4.BackColor = Color.Silver;
-            panel4.Enabled = false;
-            panel4.Location = new Point(372, 105);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(321, 2);
-            panel4.TabIndex = 64;
-            // 
-            // textBox3
-            // 
-            textBox3.Anchor = AnchorStyles.None;
-            textBox3.BackColor = Color.FromArgb(51, 51, 51);
-            textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.ForeColor = Color.White;
-            textBox3.Location = new Point(371, 80);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(321, 19);
-            textBox3.TabIndex = 63;
-            textBox3.Text = "Malla curricular";
-            // 
-            // button2
-            // 
-            button2.Anchor = AnchorStyles.None;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button2.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Liberation Mono", 12F);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(821, 179);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(333, 75);
-            button2.TabIndex = 60;
-            button2.Text = "Eliminar";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.None;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button1.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Liberation Mono", 12F);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(821, 96);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(333, 75);
-            button1.TabIndex = 59;
-            button1.Text = "Modificar";
-            button1.UseVisualStyleBackColor = true;
+            combEspecialidadCarrera.Anchor = AnchorStyles.None;
+            combEspecialidadCarrera.BackColor = Color.White;
+            combEspecialidadCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
+            combEspecialidadCarrera.FlatStyle = FlatStyle.Flat;
+            combEspecialidadCarrera.ForeColor = Color.Black;
+            combEspecialidadCarrera.FormattingEnabled = true;
+            combEspecialidadCarrera.ImeMode = ImeMode.NoControl;
+            combEspecialidadCarrera.Location = new Point(26, 150);
+            combEspecialidadCarrera.Name = "combEspecialidadCarrera";
+            combEspecialidadCarrera.Size = new Size(321, 28);
+            combEspecialidadCarrera.TabIndex = 79;
             // 
             // panel1
             // 
             panel1.Anchor = AnchorStyles.None;
-            panel1.BackColor = Color.Silver;
+            panel1.BackColor = Color.FromArgb(206, 146, 18);
             panel1.Enabled = false;
-            panel1.Location = new Point(372, 49);
+            panel1.Location = new Point(372, 81);
             panel1.Name = "panel1";
             panel1.Size = new Size(321, 2);
-            panel1.TabIndex = 58;
+            panel1.TabIndex = 77;
             // 
-            // textBox1
+            // textNombreCarrera
             // 
-            textBox1.Anchor = AnchorStyles.None;
-            textBox1.BackColor = Color.FromArgb(51, 51, 51);
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(371, 24);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(321, 19);
-            textBox1.TabIndex = 57;
-            textBox1.Text = "Nombre";
-            // 
-            // dataGridView1
-            // 
-            dataGridView1.BorderStyle = BorderStyle.None;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(25, 289);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
-            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(1129, 423);
-            dataGridView1.TabIndex = 56;
+            textNombreCarrera.Anchor = AnchorStyles.None;
+            textNombreCarrera.BackColor = Color.FromArgb(235, 210, 153);
+            textNombreCarrera.BorderStyle = BorderStyle.None;
+            textNombreCarrera.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textNombreCarrera.ForeColor = Color.Black;
+            textNombreCarrera.Location = new Point(371, 56);
+            textNombreCarrera.Name = "textNombreCarrera";
+            textNombreCarrera.Size = new Size(322, 19);
+            textNombreCarrera.TabIndex = 76;
+            textNombreCarrera.Text = "Nombre";
+            textNombreCarrera.Enter += textNombreCarrera_Enter;
+            textNombreCarrera.Leave += textNombreCarrera_Leave;
             // 
             // panel2
             // 
             panel2.Anchor = AnchorStyles.None;
-            panel2.BackColor = Color.Silver;
+            panel2.BackColor = Color.FromArgb(206, 146, 18);
             panel2.Enabled = false;
-            panel2.Location = new Point(26, 49);
+            panel2.Location = new Point(26, 81);
             panel2.Name = "panel2";
             panel2.Size = new Size(321, 2);
-            panel2.TabIndex = 55;
+            panel2.TabIndex = 75;
             // 
-            // txtDocente
+            // txtCodigoCarrera
             // 
-            txtDocente.Anchor = AnchorStyles.None;
-            txtDocente.BackColor = Color.FromArgb(51, 51, 51);
-            txtDocente.BorderStyle = BorderStyle.None;
-            txtDocente.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtDocente.ForeColor = Color.White;
-            txtDocente.Location = new Point(25, 24);
-            txtDocente.Name = "txtDocente";
-            txtDocente.Size = new Size(321, 19);
-            txtDocente.TabIndex = 54;
-            txtDocente.Text = "Codigo";
+            txtCodigoCarrera.Anchor = AnchorStyles.None;
+            txtCodigoCarrera.BackColor = Color.FromArgb(235, 210, 153);
+            txtCodigoCarrera.BorderStyle = BorderStyle.None;
+            txtCodigoCarrera.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtCodigoCarrera.ForeColor = Color.Black;
+            txtCodigoCarrera.Location = new Point(25, 56);
+            txtCodigoCarrera.Name = "txtCodigoCarrera";
+            txtCodigoCarrera.ReadOnly = true;
+            txtCodigoCarrera.Size = new Size(321, 19);
+            txtCodigoCarrera.TabIndex = 74;
+            txtCodigoCarrera.TabStop = false;
+            txtCodigoCarrera.Text = "Codigo";
+            txtCodigoCarrera.Enter += txtCodigoCarrera_Enter;
+            txtCodigoCarrera.Leave += txtCodigoCarrera_Leave;
+            txtCodigoCarrera.MouseEnter += txtCodigoCarrera_MouseEnter;
             // 
             // btnAñadirMateria
             // 
             btnAñadirMateria.Anchor = AnchorStyles.None;
             btnAñadirMateria.FlatAppearance.BorderSize = 0;
-            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnAñadirMateria.FlatStyle = FlatStyle.Flat;
-            btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
-            btnAñadirMateria.ForeColor = Color.White;
-            btnAñadirMateria.Location = new Point(821, 13);
+            btnAñadirMateria.Font = new Font("Microsoft Sans Serif", 12F);
+            btnAñadirMateria.ForeColor = Color.Black;
+            btnAñadirMateria.Location = new Point(821, 29);
             btnAñadirMateria.Margin = new Padding(3, 4, 3, 4);
             btnAñadirMateria.Name = "btnAñadirMateria";
             btnAñadirMateria.Size = new Size(333, 75);
-            btnAñadirMateria.TabIndex = 53;
+            btnAñadirMateria.TabIndex = 73;
             btnAñadirMateria.Text = "Añadir";
             btnAñadirMateria.UseVisualStyleBackColor = true;
+            btnAñadirMateria.Click += btnAñadirMateria_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(102, 228);
+            label3.Name = "label3";
+            label3.Size = new Size(118, 20);
+            label3.TabIndex = 84;
+            label3.Text = "Mostrar ocultos";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.icons8_switch_96;
+            pictureBox1.Location = new Point(25, 212);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(71, 51);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 83;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
+            // btnResetGrupo
+            // 
+            btnResetGrupo.Anchor = AnchorStyles.None;
+            btnResetGrupo.FlatAppearance.BorderSize = 0;
+            btnResetGrupo.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnResetGrupo.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
+            btnResetGrupo.FlatStyle = FlatStyle.Flat;
+            btnResetGrupo.Font = new Font("Microsoft Sans Serif", 12F);
+            btnResetGrupo.ForeColor = Color.Black;
+            btnResetGrupo.Location = new Point(821, 178);
+            btnResetGrupo.Margin = new Padding(3, 4, 3, 4);
+            btnResetGrupo.Name = "btnResetGrupo";
+            btnResetGrupo.Size = new Size(333, 75);
+            btnResetGrupo.TabIndex = 86;
+            btnResetGrupo.Text = "Reset";
+            btnResetGrupo.UseVisualStyleBackColor = true;
+            btnResetGrupo.Click += btnResetGrupo_Click;
             // 
             // añadirCarrera
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(51, 51, 51);
+            BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(1178, 737);
+            Controls.Add(btnResetGrupo);
+            Controls.Add(label3);
+            Controls.Add(pictureBox1);
+            Controls.Add(checkActiva);
             Controls.Add(label2);
-            Controls.Add(comboBox2);
-            Controls.Add(label1);
-            Controls.Add(comboBox1);
-            Controls.Add(label4);
-            Controls.Add(cmbCarrera);
-            Controls.Add(panel4);
-            Controls.Add(textBox3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(combEspecialidadCarrera);
             Controls.Add(panel1);
-            Controls.Add(textBox1);
-            Controls.Add(dataGridView1);
+            Controls.Add(textNombreCarrera);
             Controls.Add(panel2);
-            Controls.Add(txtDocente);
+            Controls.Add(txtCodigoCarrera);
             Controls.Add(btnAñadirMateria);
-            Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Controls.Add(dvgCarreras);
+            Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ForeColor = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
             MaximumSize = new Size(1178, 737);
             MinimumSize = new Size(1178, 737);
             Name = "añadirCarrera";
             Text = "añadirCarrera";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += añadirCarrera_Load;
+            ((System.ComponentModel.ISupportInitialize)dvgCarreras).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
+        private DataGridView dvgCarreras;
+        private CheckBox checkActiva;
         private Label label2;
-        private ComboBox comboBox2;
-        private Label label1;
-        private ComboBox comboBox1;
-        private Label label4;
-        private ComboBox cmbCarrera;
-        private Panel panel4;
-        private TextBox textBox3;
-        private Button button2;
-        private Button button1;
+        private ComboBox combEspecialidadCarrera;
         private Panel panel1;
-        private TextBox textBox1;
-        private DataGridView dataGridView1;
+        private TextBox textNombreCarrera;
         private Panel panel2;
-        private TextBox txtDocente;
+        private TextBox txtCodigoCarrera;
         private Button btnAñadirMateria;
+        private Label label3;
+        private PictureBox pictureBox1;
+        private Button btnResetGrupo;
+        private ToolTip ttAyuda;
     }
 }

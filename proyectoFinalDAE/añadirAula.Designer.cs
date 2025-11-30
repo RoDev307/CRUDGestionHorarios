@@ -28,154 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            comboBox1 = new ComboBox();
-            label4 = new Label();
-            cmbCarrera = new ComboBox();
-            panel4 = new Panel();
-            textBox3 = new TextBox();
-            button2 = new Button();
-            button1 = new Button();
-            panel1 = new Panel();
-            textBox1 = new TextBox();
             dataGridView1 = new DataGridView();
-            panel2 = new Panel();
-            txtDocente = new TextBox();
             btnAñadirMateria = new Button();
-            panel3 = new Panel();
-            textBox2 = new TextBox();
+            cmbTipoAula = new ComboBox();
+            label1 = new Label();
+            txtCodigoAula = new TextBox();
+            panel2 = new Panel();
+            numCapacidad = new NumericUpDown();
+            label2 = new Label();
+            btnResetGrupo = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numCapacidad).BeginInit();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(27, 115);
-            label1.Name = "label1";
-            label1.Size = new Size(48, 18);
-            label1.TabIndex = 84;
-            label1.Text = "Tipo";
-            // 
-            // comboBox1
-            // 
-            comboBox1.Anchor = AnchorStyles.None;
-            comboBox1.BackColor = Color.FromArgb(51, 51, 51);
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.FlatStyle = FlatStyle.Flat;
-            comboBox1.ForeColor = Color.White;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.ImeMode = ImeMode.NoControl;
-            comboBox1.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            comboBox1.Location = new Point(28, 136);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(321, 26);
-            comboBox1.TabIndex = 83;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(26, 60);
-            label4.Name = "label4";
-            label4.Size = new Size(88, 18);
-            label4.TabIndex = 82;
-            label4.Text = "Edificio";
-            // 
-            // cmbCarrera
-            // 
-            cmbCarrera.Anchor = AnchorStyles.None;
-            cmbCarrera.BackColor = Color.FromArgb(51, 51, 51);
-            cmbCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbCarrera.FlatStyle = FlatStyle.Flat;
-            cmbCarrera.ForeColor = Color.White;
-            cmbCarrera.FormattingEnabled = true;
-            cmbCarrera.ImeMode = ImeMode.NoControl;
-            cmbCarrera.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            cmbCarrera.Location = new Point(27, 81);
-            cmbCarrera.Name = "cmbCarrera";
-            cmbCarrera.Size = new Size(321, 26);
-            cmbCarrera.TabIndex = 81;
-            // 
-            // panel4
-            // 
-            panel4.Anchor = AnchorStyles.None;
-            panel4.BackColor = Color.Silver;
-            panel4.Enabled = false;
-            panel4.Location = new Point(372, 105);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(321, 2);
-            panel4.TabIndex = 80;
-            // 
-            // textBox3
-            // 
-            textBox3.Anchor = AnchorStyles.None;
-            textBox3.BackColor = Color.FromArgb(51, 51, 51);
-            textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox3.ForeColor = Color.White;
-            textBox3.Location = new Point(371, 80);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(321, 19);
-            textBox3.TabIndex = 79;
-            textBox3.Text = "Capacidad";
-            // 
-            // button2
-            // 
-            button2.Anchor = AnchorStyles.None;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button2.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Liberation Mono", 12F);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(821, 190);
-            button2.Margin = new Padding(3, 4, 3, 4);
-            button2.Name = "button2";
-            button2.Size = new Size(333, 75);
-            button2.TabIndex = 78;
-            button2.Text = "Eliminar";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.None;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            button1.FlatAppearance.MouseOverBackColor = Color.Silver;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Liberation Mono", 12F);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(821, 107);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Size = new Size(333, 75);
-            button1.TabIndex = 77;
-            button1.Text = "Modificar";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // panel1
-            // 
-            panel1.Anchor = AnchorStyles.None;
-            panel1.BackColor = Color.Silver;
-            panel1.Enabled = false;
-            panel1.Location = new Point(372, 49);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(321, 2);
-            panel1.TabIndex = 76;
-            // 
-            // textBox1
-            // 
-            textBox1.Anchor = AnchorStyles.None;
-            textBox1.BackColor = Color.FromArgb(51, 51, 51);
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = Color.White;
-            textBox1.Location = new Point(371, 24);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(321, 19);
-            textBox1.TabIndex = 75;
-            textBox1.Text = "Nombre";
             // 
             // dataGridView1
             // 
@@ -188,119 +52,150 @@
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.Size = new Size(1129, 423);
             dataGridView1.TabIndex = 74;
-            // 
-            // panel2
-            // 
-            panel2.Anchor = AnchorStyles.None;
-            panel2.BackColor = Color.Silver;
-            panel2.Enabled = false;
-            panel2.Location = new Point(26, 49);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(321, 2);
-            panel2.TabIndex = 73;
-            // 
-            // txtDocente
-            // 
-            txtDocente.Anchor = AnchorStyles.None;
-            txtDocente.BackColor = Color.FromArgb(51, 51, 51);
-            txtDocente.BorderStyle = BorderStyle.None;
-            txtDocente.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtDocente.ForeColor = Color.White;
-            txtDocente.Location = new Point(25, 24);
-            txtDocente.Name = "txtDocente";
-            txtDocente.Size = new Size(321, 19);
-            txtDocente.TabIndex = 72;
-            txtDocente.Text = "Codigo";
+            dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             // 
             // btnAñadirMateria
             // 
             btnAñadirMateria.Anchor = AnchorStyles.None;
             btnAñadirMateria.FlatAppearance.BorderSize = 0;
-            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.Silver;
+            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
             btnAñadirMateria.FlatStyle = FlatStyle.Flat;
-            btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
-            btnAñadirMateria.ForeColor = Color.White;
-            btnAñadirMateria.Location = new Point(821, 24);
+            btnAñadirMateria.Font = new Font("Microsoft Sans Serif", 12F);
+            btnAñadirMateria.ForeColor = Color.Black;
+            btnAñadirMateria.Location = new Point(821, 22);
             btnAñadirMateria.Margin = new Padding(3, 4, 3, 4);
             btnAñadirMateria.Name = "btnAñadirMateria";
             btnAñadirMateria.Size = new Size(333, 75);
             btnAñadirMateria.TabIndex = 71;
             btnAñadirMateria.Text = "Añadir";
             btnAñadirMateria.UseVisualStyleBackColor = true;
+            btnAñadirMateria.Click += btnAñadirMateria_Click;
             // 
-            // panel3
+            // cmbTipoAula
             // 
-            panel3.Anchor = AnchorStyles.None;
-            panel3.BackColor = Color.Silver;
-            panel3.Enabled = false;
-            panel3.Location = new Point(372, 160);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(321, 2);
-            panel3.TabIndex = 82;
+            cmbTipoAula.Anchor = AnchorStyles.None;
+            cmbTipoAula.BackColor = Color.White;
+            cmbTipoAula.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbTipoAula.FlatStyle = FlatStyle.Flat;
+            cmbTipoAula.ForeColor = Color.Black;
+            cmbTipoAula.FormattingEnabled = true;
+            cmbTipoAula.ImeMode = ImeMode.NoControl;
+            cmbTipoAula.Items.AddRange(new object[] { "NA", "Aula", "Laboratorio" });
+            cmbTipoAula.Location = new Point(26, 106);
+            cmbTipoAula.Name = "cmbTipoAula";
+            cmbTipoAula.Size = new Size(321, 28);
+            cmbTipoAula.TabIndex = 83;
+            cmbTipoAula.KeyDown += cmbTipoAula_KeyDown;
             // 
-            // textBox2
+            // label1
             // 
-            textBox2.Anchor = AnchorStyles.None;
-            textBox2.BackColor = Color.FromArgb(51, 51, 51);
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Font = new Font("Liberation Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            textBox2.ForeColor = Color.White;
-            textBox2.Location = new Point(371, 135);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(321, 19);
-            textBox2.TabIndex = 81;
-            textBox2.Text = "Ubicacion";
+            label1.AutoSize = true;
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(25, 85);
+            label1.Name = "label1";
+            label1.Size = new Size(39, 20);
+            label1.TabIndex = 84;
+            label1.Text = "Tipo";
+            // 
+            // txtCodigoAula
+            // 
+            txtCodigoAula.Anchor = AnchorStyles.None;
+            txtCodigoAula.BackColor = Color.FromArgb(235, 210, 153);
+            txtCodigoAula.BorderStyle = BorderStyle.None;
+            txtCodigoAula.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            txtCodigoAula.ForeColor = Color.Black;
+            txtCodigoAula.Location = new Point(25, 24);
+            txtCodigoAula.Name = "txtCodigoAula";
+            txtCodigoAula.Size = new Size(321, 19);
+            txtCodigoAula.TabIndex = 72;
+            txtCodigoAula.Text = "Código";
+            txtCodigoAula.Enter += txtCodigoAula_Enter;
+            txtCodigoAula.KeyDown += txtCodigoAula_KeyDown;
+            txtCodigoAula.Leave += txtCodigoAula_Leave;
+            // 
+            // panel2
+            // 
+            panel2.Anchor = AnchorStyles.None;
+            panel2.BackColor = Color.FromArgb(206, 146, 18);
+            panel2.Enabled = false;
+            panel2.Location = new Point(26, 49);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(321, 2);
+            panel2.TabIndex = 73;
+            // 
+            // numCapacidad
+            // 
+            numCapacidad.Location = new Point(497, 22);
+            numCapacidad.Name = "numCapacidad";
+            numCapacidad.Size = new Size(66, 26);
+            numCapacidad.TabIndex = 91;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(406, 24);
+            label2.Name = "label2";
+            label2.Size = new Size(85, 20);
+            label2.TabIndex = 92;
+            label2.Text = "Capacidad";
+            // 
+            // btnResetGrupo
+            // 
+            btnResetGrupo.Anchor = AnchorStyles.None;
+            btnResetGrupo.FlatAppearance.BorderSize = 0;
+            btnResetGrupo.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnResetGrupo.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
+            btnResetGrupo.FlatStyle = FlatStyle.Flat;
+            btnResetGrupo.Font = new Font("Microsoft Sans Serif", 12F);
+            btnResetGrupo.ForeColor = Color.Black;
+            btnResetGrupo.Location = new Point(821, 165);
+            btnResetGrupo.Margin = new Padding(3, 4, 3, 4);
+            btnResetGrupo.Name = "btnResetGrupo";
+            btnResetGrupo.Size = new Size(333, 75);
+            btnResetGrupo.TabIndex = 93;
+            btnResetGrupo.Text = "Reset";
+            btnResetGrupo.UseVisualStyleBackColor = true;
+            btnResetGrupo.Click += btnResetGrupo_Click;
             // 
             // añadirAula
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(51, 51, 51);
+            BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(1178, 737);
-            Controls.Add(panel3);
-            Controls.Add(textBox2);
+            Controls.Add(btnResetGrupo);
+            Controls.Add(label2);
+            Controls.Add(numCapacidad);
             Controls.Add(label1);
-            Controls.Add(comboBox1);
-            Controls.Add(label4);
-            Controls.Add(cmbCarrera);
-            Controls.Add(panel4);
-            Controls.Add(textBox3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(panel1);
-            Controls.Add(textBox1);
+            Controls.Add(cmbTipoAula);
             Controls.Add(dataGridView1);
             Controls.Add(panel2);
-            Controls.Add(txtDocente);
+            Controls.Add(txtCodigoAula);
             Controls.Add(btnAñadirMateria);
-            Font = new Font("Liberation Mono", 12F);
+            Font = new Font("Microsoft Sans Serif", 12F);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
             MaximumSize = new Size(1178, 737);
             MinimumSize = new Size(1178, 737);
             Name = "añadirAula";
             Text = "añadirAula";
+            Load += añadirAula_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numCapacidad).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Label label1;
-        private ComboBox comboBox1;
-        private Label label4;
-        private ComboBox cmbCarrera;
-        private Panel panel4;
-        private TextBox textBox3;
-        private Button button2;
-        private Button button1;
-        private Panel panel1;
-        private TextBox textBox1;
         private DataGridView dataGridView1;
-        private Panel panel2;
-        private TextBox txtDocente;
         private Button btnAñadirMateria;
-        private Panel panel3;
-        private TextBox textBox2;
+        private ComboBox cmbTipoAula;
+        private Label label1;
+        private TextBox txtCodigoAula;
+        private Panel panel2;
+        private NumericUpDown numCapacidad;
+        private Label label2;
+        private Button btnResetGrupo;
     }
 }

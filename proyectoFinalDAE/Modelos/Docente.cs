@@ -11,15 +11,27 @@ public partial class Docente
 
     public string Apellidos { get; set; } = null!;
 
-    public string? Direccion { get; set; }
+    public string Categoria { get; set; } = null!;
 
     public string? Telefono { get; set; }
 
     public string? NivelAcademico { get; set; }
 
-    public string? TipoDocente { get; set; }
+    public string? Especialidad { get; set; }
 
-    public string? HorariosDisponibles { get; set; }
+    public bool Estado { get; set; }
+
+    public string NombreCompleto
+    {
+        get { return Nombres + " " + Apellidos; }
+    }
+
+    public string NombreUsuario
+    {
+        get { return Nombres + "_" + Apellidos; }
+    }
 
     public virtual ICollection<Horario> Horarios { get; set; } = new List<Horario>();
+
+    public virtual ICollection<Asignatura> IdAsignaturas { get; set; } = new List<Asignatura>();
 }

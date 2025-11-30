@@ -28,143 +28,170 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnAñadirMateria = new Button();
-            label4 = new Label();
-            cmbCarrera = new ComboBox();
-            label2 = new Label();
-            dtpFechaInicio = new DateTimePicker();
-            label1 = new Label();
-            comboBox1 = new ComboBox();
-            label3 = new Label();
-            comboBox2 = new ComboBox();
+            btnGenerar = new Button();
+            comboBoxTipoReporte = new ComboBox();
+            lblTipoReporte = new Label();
+            dateInicio = new DateTimePicker();
+            lblFechaInicio = new Label();
+            comboBoxFormato = new ComboBox();
+            lblFormato = new Label();
+            lblFechaFin = new Label();
+            dateFin = new DateTimePicker();
+            cmbFiltro = new ComboBox();
+            lblFiltro = new Label();
             SuspendLayout();
             // 
-            // btnAñadirMateria
+            // btnGenerar
             // 
-            btnAñadirMateria.Anchor = AnchorStyles.None;
-            btnAñadirMateria.FlatAppearance.BorderSize = 0;
-            btnAñadirMateria.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
-            btnAñadirMateria.FlatAppearance.MouseOverBackColor = Color.Silver;
-            btnAñadirMateria.FlatStyle = FlatStyle.Flat;
-            btnAñadirMateria.Font = new Font("Liberation Mono", 12F);
-            btnAñadirMateria.ForeColor = Color.White;
-            btnAñadirMateria.Location = new Point(436, 572);
-            btnAñadirMateria.Margin = new Padding(3, 4, 3, 4);
-            btnAñadirMateria.Name = "btnAñadirMateria";
-            btnAñadirMateria.Size = new Size(333, 75);
-            btnAñadirMateria.TabIndex = 54;
-            btnAñadirMateria.Text = "Generar reporte";
-            btnAñadirMateria.UseVisualStyleBackColor = true;
+            btnGenerar.Anchor = AnchorStyles.None;
+            btnGenerar.BackColor = Color.FromArgb(235, 210, 153);
+            btnGenerar.FlatAppearance.BorderSize = 0;
+            btnGenerar.FlatAppearance.MouseDownBackColor = Color.FromArgb(176, 41, 28);
+            btnGenerar.FlatAppearance.MouseOverBackColor = Color.FromArgb(176, 41, 28);
+            btnGenerar.FlatStyle = FlatStyle.Flat;
+            btnGenerar.Font = new Font("Liberation Mono", 12F);
+            btnGenerar.ForeColor = Color.White;
+            btnGenerar.Location = new Point(427, 561);
+            btnGenerar.Margin = new Padding(3, 4, 3, 4);
+            btnGenerar.Name = "btnGenerar";
+            btnGenerar.Size = new Size(333, 75);
+            btnGenerar.TabIndex = 54;
+            btnGenerar.Text = "Generar reporte";
+            btnGenerar.UseVisualStyleBackColor = false;
+            btnGenerar.Click += btnGenerar_Click;
             // 
-            // label4
+            // comboBoxTipoReporte
             // 
-            label4.AutoSize = true;
-            label4.ForeColor = Color.White;
-            label4.Location = new Point(193, 170);
-            label4.Name = "label4";
-            label4.Size = new Size(158, 18);
-            label4.TabIndex = 68;
-            label4.Text = "Tipo de reporte";
+            comboBoxTipoReporte.Anchor = AnchorStyles.None;
+            comboBoxTipoReporte.BackColor = Color.White;
+            comboBoxTipoReporte.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxTipoReporte.FlatStyle = FlatStyle.Flat;
+            comboBoxTipoReporte.ForeColor = Color.Black;
+            comboBoxTipoReporte.FormattingEnabled = true;
+            comboBoxTipoReporte.ImeMode = ImeMode.NoControl;
+            comboBoxTipoReporte.Items.AddRange(new object[] { "Seleccione una opción", "Horarios Docentes", "Reporte por grupos", "Reporte de Materias", "Plan de Carrera", "Detalle de carreras" });
+            comboBoxTipoReporte.Location = new Point(287, 189);
+            comboBoxTipoReporte.Name = "comboBoxTipoReporte";
+            comboBoxTipoReporte.Size = new Size(267, 26);
+            comboBoxTipoReporte.TabIndex = 67;
+            comboBoxTipoReporte.SelectedIndexChanged += comboBoxTipoReporte_SelectedIndexChanged_1;
             // 
-            // cmbCarrera
+            // lblTipoReporte
             // 
-            cmbCarrera.Anchor = AnchorStyles.None;
-            cmbCarrera.BackColor = Color.FromArgb(51, 51, 51);
-            cmbCarrera.DropDownStyle = ComboBoxStyle.DropDownList;
-            cmbCarrera.FlatStyle = FlatStyle.Flat;
-            cmbCarrera.ForeColor = Color.White;
-            cmbCarrera.FormattingEnabled = true;
-            cmbCarrera.ImeMode = ImeMode.NoControl;
-            cmbCarrera.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            cmbCarrera.Location = new Point(194, 191);
-            cmbCarrera.Name = "cmbCarrera";
-            cmbCarrera.Size = new Size(765, 26);
-            cmbCarrera.TabIndex = 67;
+            lblTipoReporte.AutoSize = true;
+            lblTipoReporte.ForeColor = Color.Black;
+            lblTipoReporte.Location = new Point(287, 168);
+            lblTipoReporte.Name = "lblTipoReporte";
+            lblTipoReporte.Size = new Size(158, 18);
+            lblTipoReporte.TabIndex = 68;
+            lblTipoReporte.Text = "Tipo de reporte";
             // 
-            // label2
+            // dateInicio
             // 
-            label2.AutoSize = true;
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(193, 226);
-            label2.Name = "label2";
-            label2.Size = new Size(58, 18);
-            label2.TabIndex = 70;
-            label2.Text = "Desde";
+            dateInicio.CustomFormat = "";
+            dateInicio.Format = DateTimePickerFormat.Short;
+            dateInicio.Location = new Point(287, 258);
+            dateInicio.Name = "dateInicio";
+            dateInicio.RightToLeft = RightToLeft.No;
+            dateInicio.Size = new Size(267, 26);
+            dateInicio.TabIndex = 69;
             // 
-            // dtpFechaInicio
+            // lblFechaInicio
             // 
-            dtpFechaInicio.CustomFormat = "";
-            dtpFechaInicio.Format = DateTimePickerFormat.Short;
-            dtpFechaInicio.Location = new Point(193, 249);
-            dtpFechaInicio.Name = "dtpFechaInicio";
-            dtpFechaInicio.RightToLeft = RightToLeft.No;
-            dtpFechaInicio.Size = new Size(765, 26);
-            dtpFechaInicio.TabIndex = 69;
+            lblFechaInicio.AutoSize = true;
+            lblFechaInicio.ForeColor = Color.Black;
+            lblFechaInicio.Location = new Point(287, 237);
+            lblFechaInicio.Name = "lblFechaInicio";
+            lblFechaInicio.Size = new Size(58, 18);
+            lblFechaInicio.TabIndex = 70;
+            lblFechaInicio.Text = "Desde";
             // 
-            // label1
+            // comboBoxFormato
             // 
-            label1.AutoSize = true;
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(193, 286);
-            label1.Name = "label1";
-            label1.Size = new Size(68, 18);
-            label1.TabIndex = 72;
-            label1.Text = "Filtro";
+            comboBoxFormato.Anchor = AnchorStyles.None;
+            comboBoxFormato.BackColor = Color.White;
+            comboBoxFormato.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBoxFormato.FlatStyle = FlatStyle.Flat;
+            comboBoxFormato.ForeColor = Color.Black;
+            comboBoxFormato.FormattingEnabled = true;
+            comboBoxFormato.ImeMode = ImeMode.NoControl;
+            comboBoxFormato.Items.AddRange(new object[] { "Seleccione una opción", "PDF", "Excel", "CSV" });
+            comboBoxFormato.Location = new Point(287, 345);
+            comboBoxFormato.Name = "comboBoxFormato";
+            comboBoxFormato.Size = new Size(633, 26);
+            comboBoxFormato.TabIndex = 73;
             // 
-            // comboBox1
+            // lblFormato
             // 
-            comboBox1.Anchor = AnchorStyles.None;
-            comboBox1.BackColor = Color.FromArgb(51, 51, 51);
-            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox1.FlatStyle = FlatStyle.Flat;
-            comboBox1.ForeColor = Color.White;
-            comboBox1.FormattingEnabled = true;
-            comboBox1.ImeMode = ImeMode.NoControl;
-            comboBox1.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            comboBox1.Location = new Point(194, 307);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(765, 26);
-            comboBox1.TabIndex = 71;
+            lblFormato.AutoSize = true;
+            lblFormato.ForeColor = Color.Black;
+            lblFormato.Location = new Point(286, 324);
+            lblFormato.Name = "lblFormato";
+            lblFormato.Size = new Size(78, 18);
+            lblFormato.TabIndex = 74;
+            lblFormato.Text = "Formato";
             // 
-            // label3
+            // lblFechaFin
             // 
-            label3.AutoSize = true;
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(192, 348);
-            label3.Name = "label3";
-            label3.Size = new Size(78, 18);
-            label3.TabIndex = 74;
-            label3.Text = "Formato";
+            lblFechaFin.AutoSize = true;
+            lblFechaFin.ForeColor = Color.Black;
+            lblFechaFin.Location = new Point(652, 237);
+            lblFechaFin.Name = "lblFechaFin";
+            lblFechaFin.Size = new Size(58, 18);
+            lblFechaFin.TabIndex = 76;
+            lblFechaFin.Text = "Hasta";
             // 
-            // comboBox2
+            // dateFin
             // 
-            comboBox2.Anchor = AnchorStyles.None;
-            comboBox2.BackColor = Color.FromArgb(51, 51, 51);
-            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox2.FlatStyle = FlatStyle.Flat;
-            comboBox2.ForeColor = Color.White;
-            comboBox2.FormattingEnabled = true;
-            comboBox2.ImeMode = ImeMode.NoControl;
-            comboBox2.Items.AddRange(new object[] { "Técnico en desarrollo de software", "Ingenieria en desarrollo de software" });
-            comboBox2.Location = new Point(193, 369);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(765, 26);
-            comboBox2.TabIndex = 73;
+            dateFin.CustomFormat = "";
+            dateFin.Format = DateTimePickerFormat.Short;
+            dateFin.Location = new Point(652, 258);
+            dateFin.Name = "dateFin";
+            dateFin.RightToLeft = RightToLeft.No;
+            dateFin.Size = new Size(268, 26);
+            dateFin.TabIndex = 75;
+            // 
+            // cmbFiltro
+            // 
+            cmbFiltro.Anchor = AnchorStyles.None;
+            cmbFiltro.BackColor = Color.White;
+            cmbFiltro.DropDownStyle = ComboBoxStyle.DropDownList;
+            cmbFiltro.FlatStyle = FlatStyle.Flat;
+            cmbFiltro.ForeColor = Color.Black;
+            cmbFiltro.FormattingEnabled = true;
+            cmbFiltro.ImeMode = ImeMode.NoControl;
+            cmbFiltro.Items.AddRange(new object[] { "" });
+            cmbFiltro.Location = new Point(652, 189);
+            cmbFiltro.Name = "cmbFiltro";
+            cmbFiltro.Size = new Size(268, 26);
+            cmbFiltro.TabIndex = 79;
+            // 
+            // lblFiltro
+            // 
+            lblFiltro.AutoSize = true;
+            lblFiltro.ForeColor = Color.Black;
+            lblFiltro.Location = new Point(652, 168);
+            lblFiltro.Name = "lblFiltro";
+            lblFiltro.Size = new Size(68, 18);
+            lblFiltro.TabIndex = 80;
+            lblFiltro.Text = "Filtro";
             // 
             // añadirReporte
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.FromArgb(51, 51, 51);
+            BackColor = Color.FromArgb(235, 210, 153);
             ClientSize = new Size(1178, 737);
-            Controls.Add(label3);
-            Controls.Add(comboBox2);
-            Controls.Add(label1);
-            Controls.Add(comboBox1);
-            Controls.Add(label2);
-            Controls.Add(dtpFechaInicio);
-            Controls.Add(label4);
-            Controls.Add(cmbCarrera);
-            Controls.Add(btnAñadirMateria);
+            Controls.Add(lblFiltro);
+            Controls.Add(cmbFiltro);
+            Controls.Add(lblFechaFin);
+            Controls.Add(dateFin);
+            Controls.Add(lblFormato);
+            Controls.Add(comboBoxFormato);
+            Controls.Add(lblFechaInicio);
+            Controls.Add(dateInicio);
+            Controls.Add(lblTipoReporte);
+            Controls.Add(comboBoxTipoReporte);
+            Controls.Add(btnGenerar);
             Font = new Font("Liberation Mono", 12F);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
@@ -172,20 +199,23 @@
             MinimumSize = new Size(1178, 737);
             Name = "añadirReporte";
             Text = "añadirReporte";
+            Load += añadirReporte_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button btnAñadirMateria;
-        private Label label4;
-        private ComboBox cmbCarrera;
-        private Label label2;
-        private DateTimePicker dtpFechaInicio;
-        private Label label1;
-        private ComboBox comboBox1;
-        private Label label3;
-        private ComboBox comboBox2;
+        private Button btnGenerar;
+        private ComboBox comboBoxTipoReporte;
+        private Label lblTipoReporte;
+        private DateTimePicker dateInicio;
+        private Label lblFechaInicio;
+        private ComboBox comboBoxFormato;
+        private Label lblFormato;
+        private Label lblFechaFin;
+        private DateTimePicker dateFin;
+        private ComboBox cmbFiltro;
+        private Label lblFiltro;
     }
 }

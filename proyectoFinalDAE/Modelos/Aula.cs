@@ -7,15 +7,17 @@ public partial class Aula
 {
     public int IdAula { get; set; }
 
-    public string Edificio { get; set; } = null!;
+    public int IdSede { get; set; }
 
-    public string? TipoAula { get; set; }
+    public string CodigoAula { get; set; } = null!;
 
-    public string Nombre { get; set; } = null!;
+    public short Capacidad { get; set; }
 
-    public int? Capacidad { get; set; }
+    public string Tipo { get; set; } = null!;
 
-    public string? Ubicacion { get; set; }
+    public bool Disponible { get; set; }
 
     public virtual ICollection<Horario> Horarios { get; set; } = new List<Horario>();
+
+    public virtual Sede IdSedeNavigation { get; set; } = null!;
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rodri\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj": {}
+    "C:\\Users\\rodri\\Documents\\Proyecto171125\\Proyecto101125\\ProyectoFinla\\PFDemo\\ProyectoFinal - copia - copia\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rodri\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj": {
+    "C:\\Users\\rodri\\Documents\\Proyecto171125\\Proyecto101125\\ProyectoFinla\\PFDemo\\ProyectoFinal - copia - copia\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rodri\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj",
+        "projectUniqueName": "C:\\Users\\rodri\\Documents\\Proyecto171125\\Proyecto101125\\ProyectoFinla\\PFDemo\\ProyectoFinal - copia - copia\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj",
         "projectName": "proyectoFinalDAE",
-        "projectPath": "C:\\Users\\rodri\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj",
+        "projectPath": "C:\\Users\\rodri\\Documents\\Proyecto171125\\Proyecto101125\\ProyectoFinla\\PFDemo\\ProyectoFinal - copia - copia\\ProyectoFinal\\proyectoFinalDAE\\proyectoFinalDAE.csproj",
         "packagesPath": "C:\\Users\\rodri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rodri\\Documents\\GitHub\\ProyectoFinal\\proyectoFinalDAE\\obj\\",
+        "outputPath": "C:\\Users\\rodri\\Documents\\Proyecto171125\\Proyecto101125\\ProyectoFinla\\PFDemo\\ProyectoFinal - copia - copia\\ProyectoFinal\\proyectoFinalDAE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rodri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "BCrypt.Net-Core": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.105.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.10, )"
@@ -65,6 +73,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "WinForms.DataVisualization": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.3, )"
             }
           },
           "imports": [
@@ -86,7 +110,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

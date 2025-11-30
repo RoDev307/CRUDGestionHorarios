@@ -1,0 +1,3 @@
+C:\Users\rodri\Desktop\MiAppFinal\proyectoFinalDAE.pdb
+C:\Users\rodri\Desktop\MiAppFinal\appsettings.json
+C:\Users\rodri\Desktop\MiAppFinal\proyectoFinalDAE.exe
